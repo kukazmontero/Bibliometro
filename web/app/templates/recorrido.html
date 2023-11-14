@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultado del Recorrido</title>
+</head>
+<body>
+    <h1>Recorrido Seleccionado</h1>
+    <p>El recorrido entre {{ recorrido[0][1] }} y {{ recorrido[-1][1] }} es:</p>
+    <ul>
+        {% for estacion in recorrido %}
+            <li>{{ estacion[1] }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
