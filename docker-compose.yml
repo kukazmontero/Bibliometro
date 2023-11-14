@@ -29,7 +29,16 @@ services:
       - postgis
     networks:
       - app-tier
-
+  web:
+    build:
+      context: ./web
+      dockerfile: Dockerfile
+    ports:
+      - "8080:80"
+    depends_on:
+      - postgres
+    networks:
+      - app-tier
 networks:
   app-tier:
     driver: bridge

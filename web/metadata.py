@@ -70,6 +70,8 @@ def insert_connection(conn, estacion_origen, estacion_destino, linea):
     estacion_origen_id = obtener_id_estacion(conn, estacion_origen)
     estacion_destino_id = obtener_id_estacion(conn, estacion_destino)
 
+    print("test 1 AAAA")
+
     if estacion_origen_id is None or estacion_destino_id is None:
         # Se produjo un error al obtener o crear las estaciones
         print(f"No se pudo obtener o crear una o ambas estaciones para la conexión: {estacion_origen} -> {estacion_destino}")
@@ -89,6 +91,8 @@ def obtener_id_estacion(conn, nombre_estacion):
     # Intentar obtener el ID de la estación por su nombre
     cursor.execute("SELECT id FROM estaciones WHERE nombre = ?;", (nombre_estacion,))
     result = cursor.fetchone()
+
+    print("test 1 bbbbb", nombre_estacion,result)
 
     if result:
         # Si la estación ya existe, retornar su ID
