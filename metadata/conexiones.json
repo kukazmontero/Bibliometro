@@ -1,0 +1,1148 @@
+[
+  {
+    "estacion": "san pablo",
+    "lineas": [
+      "L1",
+      "L5"
+    ],
+    "estado": 0,
+    "siguiente estacion": "neptuno"
+  },
+  {
+    "estacion": "neptuno",
+    "lineas": [
+      "L1"
+    ],
+    "estado": 0,
+    "siguiente estacion": "pajaritos"
+  },
+  {
+    "estacion": "pajaritos",
+    "lineas": [
+      "L1"
+    ],
+    "estado": 0,
+    "siguiente estacion": "las rejas"
+  },
+  {
+    "estacion": "las rejas",
+    "lineas": [
+      "L1"
+    ],
+    "estado": 0,
+    "siguiente estacion": "ecuador"
+  },
+  {
+    "estacion": "ecuador",
+    "lineas": [
+      "L1"
+    ],
+    "estado": 0,
+    "siguiente estacion": "san alberto hurtado"
+  },
+  {
+    "estacion": "san alberto hurtado",
+    "lineas": [
+      "L1"
+    ],
+    "estado": 0,
+    "siguiente estacion": "universidad de santiago"
+  },
+  {
+    "estacion": "universidad de santiago",
+    "lineas": [
+      "L1"
+    ],
+    "estado": 0,
+    "siguiente estacion": "estacion central"
+  },
+  {
+    "estacion": "estacion central",
+    "lineas": [
+      "L1"
+    ],
+    "estado": 0,
+    "siguiente estacion": "u.l.a."
+  },
+  {
+    "estacion": "u.l.a.",
+    "lineas": [
+      "L1"
+    ],
+    "estado": 0,
+    "siguiente estacion": "republica"
+  },
+  {
+    "estacion": "republica",
+    "lineas": [
+      "L1"
+    ],
+    "estado": 0,
+    "siguiente estacion": "los heroes"
+  },
+  {
+    "estacion": "los heroes",
+    "lineas": [
+      "L1",
+      "L2"
+    ],
+    "estado": 0,
+    "siguiente estacion": "la moneda"
+  },
+  {
+    "estacion": "la moneda",
+    "lineas": [
+      "L1"
+    ],
+    "estado": 0,
+    "siguiente estacion": "universidad de chile"
+  },
+  {
+    "estacion": "universidad de chile",
+    "lineas": [
+      "L1",
+      "L3"
+    ],
+    "estado": 0,
+    "siguiente estacion": "santa lucia"
+  },
+  {
+    "estacion": "santa lucia",
+    "lineas": [
+      "L1"
+    ],
+    "estado": 0,
+    "siguiente estacion": "universidad catolica"
+  },
+  {
+    "estacion": "universidad catolica",
+    "lineas": [
+      "L1"
+    ],
+    "estado": 0,
+    "siguiente estacion": "baquedano"
+  },
+  {
+    "estacion": "baquedano",
+    "lineas": [
+      "L1",
+      "L5"
+    ],
+    "estado": 0,
+    "siguiente estacion": "salvador"
+  },
+  {
+    "estacion": "salvador",
+    "lineas": [
+      "L1"
+    ],
+    "estado": 0,
+    "siguiente estacion": "manuel montt"
+  },
+  {
+    "estacion": "manuel montt",
+    "lineas": [
+      "L1"
+    ],
+    "estado": 0,
+    "siguiente estacion": "pedro de valdivia"
+  },
+  {
+    "estacion": "pedro de valdivia",
+    "lineas": [
+      "L1"
+    ],
+    "estado": 0,
+    "siguiente estacion": "los leones"
+  },
+  {
+    "estacion": "los leones",
+    "lineas": [
+      "L1",
+      "L6"
+    ],
+    "estado": 0,
+    "siguiente estacion": "tobalaba"
+  },
+  {
+    "estacion": "tobalaba",
+    "lineas": [
+      "L1",
+      "L4"
+    ],
+    "estado": 0,
+    "siguiente estacion": "el golf"
+  },
+  {
+    "estacion": "el golf",
+    "lineas": [
+      "L1"
+    ],
+    "estado": 0,
+    "siguiente estacion": "alcantara"
+  },
+  {
+    "estacion": "alcantara",
+    "lineas": [
+      "L1"
+    ],
+    "estado": 0,
+    "siguiente estacion": "escuela militar"
+  },
+  {
+    "estacion": "escuela militar",
+    "lineas": [
+      "L1"
+    ],
+    "estado": 0,
+    "siguiente estacion": "manquehue"
+  },
+  {
+    "estacion": "manquehue",
+    "lineas": [
+      "L1"
+    ],
+    "estado": 0,
+    "siguiente estacion": "hernando de magallanes"
+  },
+  {
+    "estacion": "hernando de magallanes",
+    "lineas": [
+      "L1"
+    ],
+    "estado": 0,
+    "siguiente estacion": "los dominicos"
+  },
+  {
+    "estacion": "los dominicos",
+    "lineas": [
+      "L1"
+    ],
+    "estado": 0,
+    "siguiente estacion": null
+  },
+  {
+    "estacion": "vespucio norte",
+    "lineas": [
+      "L2"
+    ],
+    "estado": 0,
+    "siguiente estacion": "zapadores"
+  },
+  {
+    "estacion": "zapadores",
+    "lineas": [
+      "L2"
+    ],
+    "estado": 0,
+    "siguiente estacion": "dorsal"
+  },
+  {
+    "estacion": "dorsal",
+    "lineas": [
+      "L2"
+    ],
+    "estado": 0,
+    "siguiente estacion": "einstein"
+  },
+  {
+    "estacion": "einstein",
+    "lineas": [
+      "L2"
+    ],
+    "estado": 0,
+    "siguiente estacion": "cementerios"
+  },
+  {
+    "estacion": "cementerios",
+    "lineas": [
+      "L2"
+    ],
+    "estado": 0,
+    "siguiente estacion": "cerro blanco"
+  },
+  {
+    "estacion": "cerro blanco",
+    "lineas": [
+      "L2"
+    ],
+    "estado": 0,
+    "siguiente estacion": "patronato"
+  },
+  {
+    "estacion": "patronato",
+    "lineas": [
+      "L2"
+    ],
+    "estado": 0,
+    "siguiente estacion": "puente cal y canto"
+  },
+  {
+    "estacion": "puente cal y canto",
+    "lineas": [
+      "L2",
+      "L3"
+    ],
+    "estado": 0,
+    "siguiente estacion": "santa ana"
+  },
+  {
+    "estacion": "santa ana",
+    "lineas": [
+      "L2",
+      "L5"
+    ],
+    "estado": 0,
+    "siguiente estacion": "los heroes"
+  },
+  {
+    "estacion": "los heroes",
+    "lineas": [
+      "L1",
+      "L2"
+    ],
+    "estado": 0,
+    "siguiente estacion": "toesca"
+  },
+  {
+    "estacion": "toesca",
+    "lineas": [
+      "L2"
+    ],
+    "estado": 0,
+    "siguiente estacion": "parque o'higgins"
+  },
+  {
+    "estacion": "parque o'higgins",
+    "lineas": [
+      "L2"
+    ],
+    "estado": 0,
+    "siguiente estacion": "rondizzoni"
+  },
+  {
+    "estacion": "rondizzoni",
+    "lineas": [
+      "L2"
+    ],
+    "estado": 0,
+    "siguiente estacion": "franklin"
+  },
+  {
+    "estacion": "franklin",
+    "lineas": [
+      "L2",
+      "L6"
+    ],
+    "estado": 0,
+    "siguiente estacion": "el llano"
+  },
+  {
+    "estacion": "el llano",
+    "lineas": [
+      "L2"
+    ],
+    "estado": 0,
+    "siguiente estacion": "san miguel"
+  },
+  {
+    "estacion": "san miguel",
+    "lineas": [
+      "L2"
+    ],
+    "estado": 0,
+    "siguiente estacion": "lo vial"
+  },
+  {
+    "estacion": "lo vial",
+    "lineas": [
+      "L2"
+    ],
+    "estado": 0,
+    "siguiente estacion": "departamental"
+  },
+  {
+    "estacion": "departamental",
+    "lineas": [
+      "L2"
+    ],
+    "estado": 0,
+    "siguiente estacion": "ciudad del nino"
+  },
+  {
+    "estacion": "ciudad del nino",
+    "lineas": [
+      "L2"
+    ],
+    "estado": 0,
+    "siguiente estacion": "lo ovalle"
+  },
+  {
+    "estacion": "lo ovalle",
+    "lineas": [
+      "L2"
+    ],
+    "estado": 0,
+    "siguiente estacion": "el parron"
+  },
+  {
+    "estacion": "el parron",
+    "lineas": [
+      "L2"
+    ],
+    "estado": 0,
+    "siguiente estacion": "la cisterna"
+  },
+  {
+    "estacion": "la cisterna",
+    "lineas": [
+      "L2",
+      "L4A"
+    ],
+    "estado": 0,
+    "siguiente estacion": null
+  },
+  {
+    "estacion": "plaza quilicura",
+    "lineas": [
+      "L3"
+    ],
+    "estado": 0,
+    "siguiente estacion": "lo cruzat"
+  },
+  {
+    "estacion": "lo cruzat",
+    "lineas": [
+      "L3"
+    ],
+    "estado": 0,
+    "siguiente estacion": "ferrocarril"
+  },
+  {
+    "estacion": "ferrocarril",
+    "lineas": [
+      "L3"
+    ],
+    "estado": 0,
+    "siguiente estacion": "los libertadores"
+  },
+  {
+    "estacion": "los libertadores",
+    "lineas": [
+      "L3"
+    ],
+    "estado": 0,
+    "siguiente estacion": "cardenal caro"
+  },
+  {
+    "estacion": "cardenal caro",
+    "lineas": [
+      "L3"
+    ],
+    "estado": 0,
+    "siguiente estacion": "vivaceta"
+  },
+  {
+    "estacion": "vivaceta",
+    "lineas": [
+      "L3"
+    ],
+    "estado": 0,
+    "siguiente estacion": "conchali"
+  },
+  {
+    "estacion": "conchali",
+    "lineas": [
+      "L3"
+    ],
+    "estado": 0,
+    "siguiente estacion": "plaza chacabuco"
+  },
+  {
+    "estacion": "plaza chacabuco",
+    "lineas": [
+      "L3"
+    ],
+    "estado": 0,
+    "siguiente estacion": "hospitales"
+  },
+  {
+    "estacion": "hospitales",
+    "lineas": [
+      "L3"
+    ],
+    "estado": 0,
+    "siguiente estacion": "puente cal y canto"
+  },
+  {
+    "estacion": "puente cal y canto",
+    "lineas": [
+      "L2",
+      "L3"
+    ],
+    "estado": 0,
+    "siguiente estacion": "plaza de armas"
+  },
+  {
+    "estacion": "plaza de armas",
+    "lineas": [
+      "L3",
+      "L5"
+    ],
+    "estado": 0,
+    "siguiente estacion": "universidad de chile"
+  },
+  {
+    "estacion": "universidad de chile",
+    "lineas": [
+      "L1",
+      "L3"
+    ],
+    "estado": 0,
+    "siguiente estacion": "parque almagro"
+  },
+  {
+    "estacion": "parque almagro",
+    "lineas": [
+      "L3"
+    ],
+    "estado": 0,
+    "siguiente estacion": "matta"
+  },
+  {
+    "estacion": "matta",
+    "lineas": [
+      "L3"
+    ],
+    "estado": 0,
+    "siguiente estacion": "irarrazaval"
+  },
+  {
+    "estacion": "irarrazaval",
+    "lineas": [
+      "L3",
+      "L5"
+    ],
+    "estado": 0,
+    "siguiente estacion": "monsenor eyzaguirre"
+  },
+  {
+    "estacion": "monsenor eyzaguirre",
+    "lineas": [
+      "L3"
+    ],
+    "estado": 0,
+    "siguiente estacion": "nunoa"
+  },
+  {
+    "estacion": "nunoa",
+    "lineas": [
+      "L3",
+      "L6"
+    ],
+    "estado": 0,
+    "siguiente estacion": "chile espana"
+  },
+  {
+    "estacion": "chile espana",
+    "lineas": [
+      "L3"
+    ],
+    "estado": 0,
+    "siguiente estacion": "villa frei"
+  },
+  {
+    "estacion": "villa frei",
+    "lineas": [
+      "L3"
+    ],
+    "estado": 0,
+    "siguiente estacion": "plaza egana"
+  },
+  {
+    "estacion": "plaza egana",
+    "lineas": [
+      "L3",
+      "L4"
+    ],
+    "estado": 0,
+    "siguiente estacion": "fernando castillo velasco"
+  },
+  {
+    "estacion": "fernando castillo velasco",
+    "lineas": [
+      "L3"
+    ],
+    "estado": 0,
+    "siguiente estacion": null
+  },
+  {
+    "estacion": "tobalaba",
+    "lineas": [
+      "L1",
+      "L4"
+    ],
+    "estado": 0,
+    "siguiente estacion": "cristobal colon"
+  },
+  {
+    "estacion": "cristobal colon",
+    "lineas": [
+      "L4"
+    ],
+    "estado": 0,
+    "siguiente estacion": "francisco bilbao"
+  },
+  {
+    "estacion": "francisco bilbao",
+    "lineas": [
+      "L4"
+    ],
+    "estado": 0,
+    "siguiente estacion": "principe de gales"
+  },
+  {
+    "estacion": "principe de gales",
+    "lineas": [
+      "L4"
+    ],
+    "estado": 0,
+    "siguiente estacion": "simon bolivar"
+  },
+  {
+    "estacion": "simon bolivar",
+    "lineas": [
+      "L4"
+    ],
+    "estado": 0,
+    "siguiente estacion": "plaza egana"
+  },
+  {
+    "estacion": "plaza egana",
+    "lineas": [
+      "L3",
+      "L4"
+    ],
+    "estado": 0,
+    "siguiente estacion": "los orientales"
+  },
+  {
+    "estacion": "los orientales",
+    "lineas": [
+      "L4"
+    ],
+    "estado": 0,
+    "siguiente estacion": "grecia"
+  },
+  {
+    "estacion": "grecia",
+    "lineas": [
+      "L4"
+    ],
+    "estado": 0,
+    "siguiente estacion": "los presidentes"
+  },
+  {
+    "estacion": "los presidentes",
+    "lineas": [
+      "L4"
+    ],
+    "estado": 0,
+    "siguiente estacion": "quilin"
+  },
+  {
+    "estacion": "quilin",
+    "lineas": [
+      "L4"
+    ],
+    "estado": 0,
+    "siguiente estacion": "las torres"
+  },
+  {
+    "estacion": "las torres",
+    "lineas": [
+      "L4"
+    ],
+    "estado": 0,
+    "siguiente estacion": "macul"
+  },
+  {
+    "estacion": "macul",
+    "lineas": [
+      "L4"
+    ],
+    "estado": 0,
+    "siguiente estacion": "vicuna mackenna"
+  },
+  {
+    "estacion": "vicuna mackenna",
+    "lineas": [
+      "L4",
+      "L4A"
+    ],
+    "estado": 0,
+    "siguiente estacion": "vicente valdes"
+  },
+  {
+    "estacion": "vicente valdes",
+    "lineas": [
+      "L4",
+      "L5"
+    ],
+    "estado": 0,
+    "siguiente estacion": "rojas magallanes"
+  },
+  {
+    "estacion": "rojas magallanes",
+    "lineas": [
+      "L4"
+    ],
+    "estado": 0,
+    "siguiente estacion": "trinidad"
+  },
+  {
+    "estacion": "trinidad",
+    "lineas": [
+      "L4"
+    ],
+    "estado": 0,
+    "siguiente estacion": "san jose de la estrella"
+  },
+  {
+    "estacion": "san jose de la estrella",
+    "lineas": [
+      "L4"
+    ],
+    "estado": 0,
+    "siguiente estacion": "los quillayes"
+  },
+  {
+    "estacion": "los quillayes",
+    "lineas": [
+      "L4"
+    ],
+    "estado": 0,
+    "siguiente estacion": "elisa correa"
+  },
+  {
+    "estacion": "elisa correa",
+    "lineas": [
+      "L4"
+    ],
+    "estado": 0,
+    "siguiente estacion": "hospital sotero del rio"
+  },
+  {
+    "estacion": "hospital sotero del rio",
+    "lineas": [
+      "L4"
+    ],
+    "estado": 0,
+    "siguiente estacion": "protectora de la infancia"
+  },
+  {
+    "estacion": "protectora de la infancia",
+    "lineas": [
+      "L4"
+    ],
+    "estado": 0,
+    "siguiente estacion": "las mercedes"
+  },
+  {
+    "estacion": "las mercedes",
+    "lineas": [
+      "L4"
+    ],
+    "estado": 0,
+    "siguiente estacion": "plaza de puente alto"
+  },
+  {
+    "estacion": "plaza de puente alto",
+    "lineas": [
+      "L4"
+    ],
+    "estado": 0,
+    "siguiente estacion": null
+  },
+  {
+    "estacion": "vicuna mackenna",
+    "lineas": [
+      "L4",
+      "L4A"
+    ],
+    "estado": 0,
+    "siguiente estacion": "santa julia"
+  },
+  {
+    "estacion": "santa julia",
+    "lineas": [
+      "L4A"
+    ],
+    "estado": 0,
+    "siguiente estacion": "la granja"
+  },
+  {
+    "estacion": "la granja",
+    "lineas": [
+      "L4A"
+    ],
+    "estado": 0,
+    "siguiente estacion": "santa rosa"
+  },
+  {
+    "estacion": "santa rosa",
+    "lineas": [
+      "L4A"
+    ],
+    "estado": 0,
+    "siguiente estacion": "san ramon"
+  },
+  {
+    "estacion": "san ramon",
+    "lineas": [
+      "L4A"
+    ],
+    "estado": 0,
+    "siguiente estacion": "la cisterna"
+  },
+  {
+    "estacion": "la cisterna",
+    "lineas": [
+      "L2",
+      "L4A"
+    ],
+    "estado": 0,
+    "siguiente estacion": null
+  },
+  {
+    "estacion": "plaza de maipu",
+    "lineas": [
+      "L5"
+    ],
+    "estado": 0,
+    "siguiente estacion": "santiago bueras"
+  },
+  {
+    "estacion": "santiago bueras",
+    "lineas": [
+      "L5"
+    ],
+    "estado": 0,
+    "siguiente estacion": "del sol"
+  },
+  {
+    "estacion": "del sol",
+    "lineas": [
+      "L5"
+    ],
+    "estado": 0,
+    "siguiente estacion": "monte tabor"
+  },
+  {
+    "estacion": "monte tabor",
+    "lineas": [
+      "L5"
+    ],
+    "estado": 0,
+    "siguiente estacion": "las parcelas"
+  },
+  {
+    "estacion": "las parcelas",
+    "lineas": [
+      "L5"
+    ],
+    "estado": 0,
+    "siguiente estacion": "laguna sur"
+  },
+  {
+    "estacion": "laguna sur",
+    "lineas": [
+      "L5"
+    ],
+    "estado": 0,
+    "siguiente estacion": "barrancas"
+  },
+  {
+    "estacion": "barrancas",
+    "lineas": [
+      "L5"
+    ],
+    "estado": 0,
+    "siguiente estacion": "pudahuel"
+  },
+  {
+    "estacion": "pudahuel",
+    "lineas": [
+      "L5"
+    ],
+    "estado": 0,
+    "siguiente estacion": "san pablo"
+  },
+  {
+    "estacion": "san pablo",
+    "lineas": [
+      "L1",
+      "L5"
+    ],
+    "estado": 0,
+    "siguiente estacion": "lo prado"
+  },
+  {
+    "estacion": "lo prado",
+    "lineas": [
+      "L5"
+    ],
+    "estado": 0,
+    "siguiente estacion": "blanqueado"
+  },
+  {
+    "estacion": "blanqueado",
+    "lineas": [
+      "L5"
+    ],
+    "estado": 0,
+    "siguiente estacion": "gruta de lourdes"
+  },
+  {
+    "estacion": "gruta de lourdes",
+    "lineas": [
+      "L5"
+    ],
+    "estado": 0,
+    "siguiente estacion": "quinta normal"
+  },
+  {
+    "estacion": "quinta normal",
+    "lineas": [
+      "L5"
+    ],
+    "estado": 0,
+    "siguiente estacion": "cumming"
+  },
+  {
+    "estacion": "cumming",
+    "lineas": [
+      "L5"
+    ],
+    "estado": 0,
+    "siguiente estacion": "santa ana"
+  },
+  {
+    "estacion": "santa ana",
+    "lineas": [
+      "L2",
+      "L5"
+    ],
+    "estado": 0,
+    "siguiente estacion": "plaza de armas"
+  },
+  {
+    "estacion": "plaza de armas",
+    "lineas": [
+      "L3",
+      "L5"
+    ],
+    "estado": 0,
+    "siguiente estacion": "bellas artes"
+  },
+  {
+    "estacion": "bellas artes",
+    "lineas": [
+      "L5"
+    ],
+    "estado": 0,
+    "siguiente estacion": "baquedano"
+  },
+  {
+    "estacion": "baquedano",
+    "lineas": [
+      "L1",
+      "L5"
+    ],
+    "estado": 0,
+    "siguiente estacion": "parque bustamante"
+  },
+  {
+    "estacion": "parque bustamante",
+    "lineas": [
+      "L5"
+    ],
+    "estado": 0,
+    "siguiente estacion": "santa isabel"
+  },
+  {
+    "estacion": "santa isabel",
+    "lineas": [
+      "L5"
+    ],
+    "estado": 0,
+    "siguiente estacion": "irarrazaval"
+  },
+  {
+    "estacion": "irarrazaval",
+    "lineas": [
+      "L3",
+      "L5"
+    ],
+    "estado": 0,
+    "siguiente estacion": "nuble"
+  },
+  {
+    "estacion": "nuble",
+    "lineas": [
+      "L5",
+      "L6"
+    ],
+    "estado": 0,
+    "siguiente estacion": "rodrigo de araya"
+  },
+  {
+    "estacion": "rodrigo de araya",
+    "lineas": [
+      "L5"
+    ],
+    "estado": 0,
+    "siguiente estacion": "carlos valdovinos"
+  },
+  {
+    "estacion": "carlos valdovinos",
+    "lineas": [
+      "L5"
+    ],
+    "estado": 0,
+    "siguiente estacion": "camino agricola"
+  },
+  {
+    "estacion": "camino agricola",
+    "lineas": [
+      "L5"
+    ],
+    "estado": 0,
+    "siguiente estacion": "san joaquin"
+  },
+  {
+    "estacion": "san joaquin",
+    "lineas": [
+      "L5"
+    ],
+    "estado": 0,
+    "siguiente estacion": "pedrero"
+  },
+  {
+    "estacion": "pedrero",
+    "lineas": [
+      "L5"
+    ],
+    "estado": 0,
+    "siguiente estacion": "mirador"
+  },
+  {
+    "estacion": "mirador",
+    "lineas": [
+      "L5"
+    ],
+    "estado": 0,
+    "siguiente estacion": "bellavista de la florida"
+  },
+  {
+    "estacion": "bellavista de la florida",
+    "lineas": [
+      "L5"
+    ],
+    "estado": 0,
+    "siguiente estacion": "vicente valdes"
+  },
+  {
+    "estacion": "vicente valdes",
+    "lineas": [
+      "L4",
+      "L5"
+    ],
+    "estado": 0,
+    "siguiente estacion": null
+  },
+  {
+    "estacion": "cerrillos",
+    "lineas": [
+      "L6"
+    ],
+    "estado": 0,
+    "siguiente estacion": "lo valledor"
+  },
+  {
+    "estacion": "lo valledor",
+    "lineas": [
+      "L6"
+    ],
+    "estado": 0,
+    "siguiente estacion": "pdte. pedro aguirre cerda"
+  },
+  {
+    "estacion": "pdte. pedro aguirre cerda",
+    "lineas": [
+      "L6"
+    ],
+    "estado": 0,
+    "siguiente estacion": "franklin"
+  },
+  {
+    "estacion": "franklin",
+    "lineas": [
+      "L2",
+      "L6"
+    ],
+    "estado": 0,
+    "siguiente estacion": "bio bio"
+  },
+  {
+    "estacion": "bio bio",
+    "lineas": [
+      "L6"
+    ],
+    "estado": 0,
+    "siguiente estacion": "nuble"
+  },
+  {
+    "estacion": "nuble",
+    "lineas": [
+      "L5",
+      "L6"
+    ],
+    "estado": 0,
+    "siguiente estacion": "estadio nacional"
+  },
+  {
+    "estacion": "estadio nacional",
+    "lineas": [
+      "L6"
+    ],
+    "estado": 0,
+    "siguiente estacion": "nunoa"
+  },
+  {
+    "estacion": "nunoa",
+    "lineas": [
+      "L3",
+      "L6"
+    ],
+    "estado": 0,
+    "siguiente estacion": "ines de suarez"
+  },
+  {
+    "estacion": "ines de suarez",
+    "lineas": [
+      "L6"
+    ],
+    "estado": 0,
+    "siguiente estacion": "los leones"
+  },
+  {
+    "estacion": "los leones",
+    "lineas": [
+      "L1",
+      "L6"
+    ],
+    "estado": 0,
+    "siguiente estacion": null
+  }
+]
