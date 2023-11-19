@@ -1,0 +1,219 @@
+[
+  {
+    "Estacion": "bellavista",
+    "Lineas": [
+      "L5"
+    ],
+    "Ubicacion": "fuera",
+    "Tipo": "kiosko",
+    "Trabajador": 0.821914169406748
+  },
+  {
+    "Estacion": "irarrazaval",
+    "Lineas": [
+      "L3",
+      "L5"
+    ],
+    "Ubicacion": "fuera",
+    "Tipo": "kiosko",
+    "Trabajador": 0.7658471063522709
+  },
+  {
+    "Estacion": "san_pablo",
+    "Lineas": [
+      "L2",
+      "L5"
+    ],
+    "Ubicacion": "dentro",
+    "Tipo": "kiosko",
+    "Trabajador": 0.9386760101756291
+  },
+  {
+    "Estacion": "plaza_de_armas",
+    "Lineas": [
+      "L3",
+      "L5"
+    ],
+    "Ubicacion": "fuera",
+    "Tipo": "kiosko",
+    "Trabajador": 0.6448208807265494
+  },
+  {
+    "Estacion": "quinta_normal",
+    "Lineas": [
+      "L5"
+    ],
+    "Ubicacion": "fuera",
+    "Tipo": "kiosko",
+    "Trabajador": 0.6030509597751649
+  },
+  {
+    "Estacion": "la_cisterna",
+    "Lineas": [
+      "L2",
+      "L4A"
+    ],
+    "Ubicacion": "fuera",
+    "Tipo": "kiosko",
+    "Trabajador": 0.7540918043309434
+  },
+  {
+    "Estacion": "escuela_militar",
+    "Lineas": [
+      "L1"
+    ],
+    "Ubicacion": "fuera",
+    "Tipo": "kiosko",
+    "Trabajador": 0.6396391613502355
+  },
+  {
+    "Estacion": "franklin",
+    "Lineas": [
+      "L2",
+      "L6"
+    ],
+    "Ubicacion": "dentro",
+    "Tipo": "kiosko",
+    "Trabajador": 0.5311862402331178
+  },
+  {
+    "Estacion": "puente_alto",
+    "Lineas": [
+      "L4"
+    ],
+    "Ubicacion": "fuera",
+    "Tipo": "kiosko",
+    "Trabajador": 0.5496224483466494
+  },
+  {
+    "Estacion": "tobalaba",
+    "Lineas": [
+      "L1",
+      "L4"
+    ],
+    "Ubicacion": "fuera",
+    "Tipo": "kiosko",
+    "Trabajador": 0.9992057667449732
+  },
+  {
+    "Estacion": "vespucio_norte",
+    "Lineas": [
+      "L2"
+    ],
+    "Ubicacion": "fuera",
+    "Tipo": "kiosko",
+    "Trabajador": 0.7603381658685453
+  },
+  {
+    "Estacion": "los_heroes",
+    "Lineas": [
+      "L1",
+      "L2"
+    ],
+    "Ubicacion": "dentro",
+    "Tipo": "kiosko",
+    "Trabajador": 0.8375300648012209
+  },
+  {
+    "Estacion": "macul",
+    "Lineas": [
+      "L4"
+    ],
+    "Ubicacion": "dentro",
+    "Tipo": "kiosko",
+    "Trabajador": 0.5036656960897923
+  },
+  {
+    "Estacion": "pajaritos",
+    "Lineas": [
+      "L1"
+    ],
+    "Ubicacion": "dentro",
+    "Tipo": "kiosko",
+    "Trabajador": 0.5708679446686347
+  },
+  {
+    "Estacion": "baquedano",
+    "Lineas": [
+      "L1",
+      "L5"
+    ],
+    "Ubicacion": "dentro",
+    "Tipo": "kiosko",
+    "Trabajador": 0.518540287960394
+  },
+  {
+    "Estacion": "los_dominicos",
+    "Lineas": [
+      "L1"
+    ],
+    "Ubicacion": "fuera",
+    "Tipo": "kiosko",
+    "Trabajador": 0.8953905676432237
+  },
+  {
+    "Estacion": "ciudad_del_nino",
+    "Lineas": [
+      "L2"
+    ],
+    "Ubicacion": "fuera",
+    "Tipo": "kiosko",
+    "Trabajador": 0.5201159213551627
+  },
+  {
+    "Estacion": "plaza_egana",
+    "Lineas": [
+      "L3",
+      "L4"
+    ],
+    "Ubicacion": "dentro",
+    "Tipo": "kiosko",
+    "Trabajador": 0.9358856260364319
+  },
+  {
+    "Estacion": "maipu",
+    "Lineas": [
+      "L5"
+    ],
+    "Ubicacion": "fuera",
+    "Tipo": "kiosko",
+    "Trabajador": 0.5074954306155419
+  },
+  {
+    "Estacion": "cerrillos",
+    "Lineas": [
+      "L6"
+    ],
+    "Ubicacion": "fuera",
+    "Tipo": "expendedor",
+    "Trabajador": 1
+  },
+  {
+    "Estacion": "lo_valledor",
+    "Lineas": [
+      "L6"
+    ],
+    "Ubicacion": "fuera",
+    "Tipo": "expendedor",
+    "Trabajador": 1
+  },
+  {
+    "Estacion": "nunoa",
+    "Lineas": [
+      "L3",
+      "L6"
+    ],
+    "Ubicacion": "dentro",
+    "Tipo": "expendedor",
+    "Trabajador": 1
+  },
+  {
+    "Estacion": "ines_de_suarez",
+    "Lineas": [
+      "L6"
+    ],
+    "Ubicacion": "fuera",
+    "Tipo": "expendedor",
+    "Trabajador": 1
+  }
+]
