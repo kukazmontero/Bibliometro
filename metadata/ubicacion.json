@@ -1,0 +1,637 @@
+[
+  {
+    "estacion": "san pablo",
+    "longitud": -70.723118,
+    "latitud": -33.445454
+  },
+  {
+    "estacion": "neptuno",
+    "longitud": -70.7226457231,
+    "latitud": -33.4515363785
+  },
+  {
+    "estacion": "pajaritos",
+    "longitud": -70.7159366252,
+    "latitud": -33.4574171848
+  },
+  {
+    "estacion": "las rejas",
+    "longitud": -70.7058707613,
+    "latitud": -33.4573687921
+  },
+  {
+    "estacion": "ecuador",
+    "longitud": -70.7010856004,
+    "latitud": -33.4562666496
+  },
+  {
+    "estacion": "san alberto hurtado",
+    "longitud": -70.6262085328,
+    "latitud": -33.4334665259
+  },
+  {
+    "estacion": "universidad de santiago",
+    "longitud": -70.6863706043,
+    "latitud": -33.4528321137
+  },
+  {
+    "estacion": "estacion central",
+    "longitud": -70.6791487979,
+    "latitud": -33.4508747721
+  },
+  {
+    "estacion": "union latinoamericana",
+    "longitud": -70.673456434,
+    "latitud": -33.4494227802
+  },
+  {
+    "estacion": "republica",
+    "longitud": -70.6124338697,
+    "latitud": -33.424929207
+  },
+  {
+    "estacion": "los heroes",
+    "longitud": -70.661705,
+    "latitud": -33.446487
+  },
+  {
+    "estacion": "la moneda",
+    "longitud": -70.6547958639,
+    "latitud": -33.4448550099
+  },
+  {
+    "estacion": "universidad de chile",
+    "longitud": -70.6502916805,
+    "latitud": -33.4437650271
+  },
+  {
+    "estacion": "santa lucia",
+    "longitud": -70.6452040233,
+    "latitud": -33.4425540356
+  },
+  {
+    "estacion": "universidad catolica",
+    "longitud": -70.6400308121,
+    "latitud": -33.4398533694
+  },
+  {
+    "estacion": "baquedano",
+    "longitud": -70.633119,
+    "latitud": -33.437277
+  },
+  {
+    "estacion": "salvador",
+    "longitud": -70.6670369446,
+    "latitud": -33.44770483
+  },
+  {
+    "estacion": "manuel montt",
+    "longitud": -70.6189163946,
+    "latitud": -33.4292005093
+  },
+  {
+    "estacion": "pedro de valdivia",
+    "longitud": -70.6923679557,
+    "latitud": -33.4542237258
+  },
+  {
+    "estacion": "los leones",
+    "longitud": -70.6086500598,
+    "latitud": -33.4221740884
+  },
+  {
+    "estacion": "tobalaba",
+    "longitud": -70.602792,
+    "latitud": -33.418722
+  },
+  {
+    "estacion": "el golf",
+    "longitud": -70.5958563387,
+    "latitud": -33.416657734
+  },
+  {
+    "estacion": "alcantara",
+    "longitud": -70.5896858425,
+    "latitud": -33.4154387733
+  },
+  {
+    "estacion": "escuela militar",
+    "longitud": -70.5846369001,
+    "latitud": -33.4142908812
+  },
+  {
+    "estacion": "manquehue",
+    "longitud": -70.5681256167,
+    "latitud": -33.409025904
+  },
+  {
+    "estacion": "hernando de magallanes",
+    "longitud": -70.5555990885,
+    "latitud": -33.4080065974
+  },
+  {
+    "estacion": "los dominicos",
+    "longitud": -70.5450801049,
+    "latitud": -33.4078963976
+  },
+  {
+    "estacion": "la cisterna",
+    "longitud": -70.664475872,
+    "latitud": -33.5379710401
+  },
+  {
+    "estacion": "el parron",
+    "longitud": -70.6614241284,
+    "latitud": -33.526513086
+  },
+  {
+    "estacion": "lo ovalle",
+    "longitud": -70.6588073333,
+    "latitud": -33.5172332353
+  },
+  {
+    "estacion": "ciudad del nino",
+    "longitud": -70.656652699,
+    "latitud": -33.5096115457
+  },
+  {
+    "estacion": "departamental",
+    "longitud": -70.6547967444,
+    "latitud": -33.503069019
+  },
+  {
+    "estacion": "lo vial",
+    "longitud": -70.652892795,
+    "latitud": -33.4964133763
+  },
+  {
+    "estacion": "san miguel",
+    "longitud": -70.6506872131484,
+    "latitud": -33.4889964032722
+  },
+  {
+    "estacion": "el llano",
+    "longitud": -70.6491237338,
+    "latitud": -33.4825980382
+  },
+  {
+    "estacion": "franklin",
+    "longitud": -70.6494014049,
+    "latitud": -33.476068318
+  },
+  {
+    "estacion": "rondizzoni",
+    "longitud": -70.656665637344,
+    "latitud": -33.4702489243293
+  },
+  {
+    "estacion": "parque o'higgins",
+    "longitud": -70.656821848,
+    "latitud": -33.4608418168
+  },
+  {
+    "estacion": "toesca",
+    "longitud": -70.658734104,
+    "latitud": -33.452351492
+  },
+  {
+    "estacion": "santa ana",
+    "longitud": -70.6587310579999,
+    "latitud": -33.4392550389999
+  },
+  {
+    "estacion": "puente cal y canto",
+    "longitud": -70.652228944,
+    "latitud": -33.4329460266
+  },
+  {
+    "estacion": "patronato",
+    "longitud": -70.6470530443,
+    "latitud": -33.4296286175
+  },
+  {
+    "estacion": "cerro blanco",
+    "longitud": -70.6449391713,
+    "latitud": -33.4224768455
+  },
+  {
+    "estacion": "cementerios",
+    "longitud": -70.6436196881,
+    "latitud": -33.4138734859
+  },
+  {
+    "estacion": "einstein",
+    "longitud": -70.6431782925,
+    "latitud": -33.4064773885
+  },
+  {
+    "estacion": "dorsal",
+    "longitud": -70.6427391035,
+    "latitud": -33.3968035324
+  },
+  {
+    "estacion": "zapadores",
+    "longitud": -70.642441,
+    "latitud": -33.390938
+  },
+  {
+    "estacion": "vespucio norte",
+    "longitud": -70.646175808,
+    "latitud": -33.381131836
+  },
+  {
+    "estacion": "plaza quilicura",
+    "longitud": -70.729912,
+    "latitud": -33.364983
+  },
+  {
+    "estacion": "lo cruzat",
+    "longitud": -70.719841,
+    "latitud": -33.36673
+  },
+  {
+    "estacion": "ferrocarril",
+    "longitud": -70.705925,
+    "latitud": -33.365486
+  },
+  {
+    "estacion": "los libertadores",
+    "longitud": -70.6875399,
+    "latitud": -33.3671373
+  },
+  {
+    "estacion": "cardenal caro",
+    "longitud": -70.685459,
+    "latitud": -33.373018
+  },
+  {
+    "estacion": "vivaceta",
+    "longitud": -70.679508,
+    "latitud": -33.385142
+  },
+  {
+    "estacion": "conchali",
+    "longitud": -70.670334,
+    "latitud": -33.397244
+  },
+  {
+    "estacion": "plaza chacabuco",
+    "longitud": -70.660928,
+    "latitud": -33.406079
+  },
+  {
+    "estacion": "hospitales",
+    "longitud": -70.655687,
+    "latitud": -33.417756
+  },
+  {
+    "estacion": "puente cal y canto",
+    "longitud": -70.652146,
+    "latitud": -33.433128
+  },
+  {
+    "estacion": "plaza de armas",
+    "longitud": -70.649818,
+    "latitud": -33.436672
+  },
+  {
+    "estacion": "universidad de chile",
+    "longitud": -70.650337,
+    "latitud": -33.444057
+  },
+  {
+    "estacion": "parque almagro",
+    "longitud": -70.6504687,
+    "latitud": -33.4515666
+  },
+  {
+    "estacion": "matta",
+    "longitud": -70.64315,
+    "latitud": -33.457973
+  },
+  {
+    "estacion": "irarrazaval",
+    "longitud": -70.627946,
+    "latitud": -33.454762
+  },
+  {
+    "estacion": "monsenor eyzaguirre",
+    "longitud": -70.613826,
+    "latitud": -33.453507
+  },
+  {
+    "estacion": "nunoa",
+    "longitud": -70.605515,
+    "latitud": -33.454277
+  },
+  {
+    "estacion": "chile-espana",
+    "longitud": -70.597308,
+    "latitud": -33.45515
+  },
+  {
+    "estacion": "villa frei",
+    "longitud": -70.581595,
+    "latitud": -33.454856
+  },
+  {
+    "estacion": "plaza egana",
+    "longitud": -70.571569,
+    "latitud": -33.45345
+  },
+  {
+    "estacion": "fernando castillo velasco",
+    "longitud": -70.558266,
+    "latitud": -33.45231
+  },
+  {
+    "estacion": "cristobal colon",
+    "longitud": -70.591152772,
+    "latitud": -33.4263050417
+  },
+  {
+    "estacion": "francisco bilbao",
+    "longitud": -70.5846017588,
+    "latitud": -33.431954829
+  },
+  {
+    "estacion": "principe de gales",
+    "longitud": -70.5737705717,
+    "latitud": -33.4379569188
+  },
+  {
+    "estacion": "simon bolivar",
+    "longitud": -70.5716075746,
+    "latitud": -33.4480174982
+  },
+  {
+    "estacion": "los orientales",
+    "longitud": -70.573881635,
+    "latitud": -33.4625241485
+  },
+  {
+    "estacion": "grecia",
+    "longitud": -70.576492012,
+    "latitud": -33.4696186488
+  },
+  {
+    "estacion": "los presidentes",
+    "longitud": -70.5786516893,
+    "latitud": -33.479870172
+  },
+  {
+    "estacion": "quilin",
+    "longitud": -70.5803542757,
+    "latitud": -33.4882359056
+  },
+  {
+    "estacion": "las torres",
+    "longitud": -70.5863649467,
+    "latitud": -33.4988819111
+  },
+  {
+    "estacion": "macul",
+    "longitud": -70.5899928911,
+    "latitud": -33.5092230156
+  },
+  {
+    "estacion": "vicente valdes",
+    "longitud": -70.596748,
+    "latitud": -33.526559
+  },
+  {
+    "estacion": "rojas magallanes",
+    "longitud": -70.5926103657,
+    "latitud": -33.5361679941
+  },
+  {
+    "estacion": "trinidad",
+    "longitud": -70.5878865189,
+    "latitud": -33.5465810871
+  },
+  {
+    "estacion": "san jose de la estrella",
+    "longitud": -70.5865360399,
+    "latitud": -33.5533554017
+  },
+  {
+    "estacion": "los quillayes",
+    "longitud": -70.5851770833,
+    "latitud": -33.5613327566
+  },
+  {
+    "estacion": "elisa correa",
+    "longitud": -70.5837448005,
+    "latitud": -33.5694653545
+  },
+  {
+    "estacion": "hospital sotero del rio",
+    "longitud": -70.5821759114,
+    "latitud": -33.5771017395
+  },
+  {
+    "estacion": "protectora de la infancia",
+    "longitud": -70.5797935169,
+    "latitud": -33.5897537099
+  },
+  {
+    "estacion": "las mercedes",
+    "longitud": -70.5775951411,
+    "latitud": -33.6007205794
+  },
+  {
+    "estacion": "plaza de puente alto",
+    "longitud": -70.5757546477,
+    "latitud": -33.6104627332
+  },
+  {
+    "estacion": "vicuna mackenna",
+    "longitud": -70.596173,
+    "latitud": -33.519778
+  },
+  {
+    "estacion": "santa julia",
+    "longitud": -70.6054880039,
+    "latitud": -33.53116125
+  },
+  {
+    "estacion": "la granja",
+    "longitud": -70.6160506476,
+    "latitud": -33.5411913223
+  },
+  {
+    "estacion": "santa rosa",
+    "longitud": -70.6340939802,
+    "latitud": -33.5424495036
+  },
+  {
+    "estacion": "san ramon",
+    "longitud": -70.651247929,
+    "latitud": -33.5400086732
+  },
+  {
+    "estacion": "la cisterna",
+    "longitud": -70.664475872,
+    "latitud": -33.5379710401
+  },
+  {
+    "estacion": "plaza de maipu",
+    "longitud": -70.7572698234,
+    "latitud": -33.5106376657
+  },
+  {
+    "estacion": "santiago bueras",
+    "longitud": -70.7574300634,
+    "latitud": -33.496415092
+  },
+  {
+    "estacion": "del sol",
+    "longitud": -70.7527345359,
+    "latitud": -33.4898370035
+  },
+  {
+    "estacion": "monte tabor",
+    "longitud": -70.7453727989,
+    "latitud": -33.4821161369
+  },
+  {
+    "estacion": "las parcelas",
+    "longitud": -70.7414908906,
+    "latitud": -33.4773557137
+  },
+  {
+    "estacion": "laguna sur",
+    "longitud": -70.7377993675,
+    "latitud": -33.4628779993
+  },
+  {
+    "estacion": "barrancas",
+    "longitud": -70.7390024344,
+    "latitud": -33.4529977764
+  },
+  {
+    "estacion": "pudahuel",
+    "longitud": -70.7405987919,
+    "latitud": -33.4449744968
+  },
+  {
+    "estacion": "lo prado",
+    "longitud": -70.7159129966,
+    "latitud": -33.44329548
+  },
+  {
+    "estacion": "blanqueado",
+    "longitud": -70.7072627674,
+    "latitud": -33.4414864788
+  },
+  {
+    "estacion": "gruta de lourdes",
+    "longitud": -70.6917116963,
+    "latitud": -33.4384028009
+  },
+  {
+    "estacion": "quinta normal",
+    "longitud": -70.680187867,
+    "latitud": -33.4404094483
+  },
+  {
+    "estacion": "cumming",
+    "longitud": -70.668541584,
+    "latitud": -33.4391645841
+  },
+  {
+    "estacion": "plaza de armas",
+    "longitud": -70.6506089474,
+    "latitud": -33.4372717911
+  },
+  {
+    "estacion": "bellas artes",
+    "longitud": -70.6450213229,
+    "latitud": -33.436680607
+  },
+  {
+    "estacion": "parque bustamante",
+    "longitud": -70.6315473827,
+    "latitud": -33.4428033737
+  },
+  {
+    "estacion": "santa isabel",
+    "longitud": -70.6304176391,
+    "latitud": -33.44713023
+  },
+  {
+    "estacion": "irarrazaval",
+    "longitud": -70.6282473189,
+    "latitud": -33.4552828909
+  },
+  {
+    "estacion": "nuble",
+    "longitud": -70.6247134504,
+    "latitud": -33.46740043
+  },
+  {
+    "estacion": "rodrigo de araya",
+    "longitud": -70.6223002472,
+    "latitud": -33.4775901468
+  },
+  {
+    "estacion": "carlos valdovinos",
+    "longitud": -70.6190938371,
+    "latitud": -33.4864718748
+  },
+  {
+    "estacion": "camino agricola",
+    "longitud": -70.6174987351,
+    "latitud": -33.4918474779
+  },
+  {
+    "estacion": "san joaquin",
+    "longitud": -70.6163333506,
+    "latitud": -33.4969056062
+  },
+  {
+    "estacion": "pedrero",
+    "longitud": -70.6124268393,
+    "latitud": -33.5080473296
+  },
+  {
+    "estacion": "mirador",
+    "longitud": -70.6062000679,
+    "latitud": -33.5131545696
+  },
+  {
+    "estacion": "bellavista de la florida",
+    "longitud": -70.5993483297,
+    "latitud": -33.5204449009
+  },
+  {
+    "estacion": "cerrillos",
+    "longitud": -70.693665,
+    "latitud": -33.483631
+  },
+  {
+    "estacion": "lo valledor",
+    "longitud": -70.680244,
+    "latitud": -33.478607
+  },
+  {
+    "estacion": "pedro aguirre cerda",
+    "longitud": -70.665001,
+    "latitud": -33.47847
+  },
+  {
+    "estacion": "bio bio",
+    "longitud": -70.6418,
+    "latitud": -33.476822
+  },
+  {
+    "estacion": "estadio nacional",
+    "longitud": -70.607109,
+    "latitud": -33.46199
+  },
+  {
+    "estacion": "ines de suarez",
+    "longitud": -70.607399,
+    "latitud": -33.438011
+  }
+]

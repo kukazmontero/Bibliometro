@@ -1,5 +1,4 @@
 import json
-import random
 
 # Datos proporcionados
 datos_estaciones = [
@@ -25,21 +24,15 @@ datos_estaciones = [
     {"Estacion": "cerrillos", "Lineas": ["L6"], "Ubicacion": "fuera", "Tipo": "expendedor"},
     {"Estacion": "lo valledor", "Lineas": ["L6"], "Ubicacion": "fuera", "Tipo": "expendedor"},
     {"Estacion": "nunoa", "Lineas": ["L3", "L6"], "Ubicacion": "dentro", "Tipo": "expendedor"},
-    {"Estacion": "ines de suarez", "Lineas": ["L6"], "Ubicacion": "fuera", "Tipo": "expendedor"},
+    {"Estacion": "ines de suarez", "Lineas": ["L6"], "Ubicacion": "fuera", "Tipo": "expendedor"}
 ]
 
-# Agregar la columna "trabajador"
-for estacion in datos_estaciones:
-    if estacion["Tipo"] == "expendedor":
-        estacion["Trabajador"] = 1
-    else:
-        estacion["Trabajador"] = random.uniform(0.5, 1)
 
 # Convertir la lista de diccionarios a formato JSON
 json_estaciones = json.dumps(datos_estaciones, indent=2)
 
 # Escribir el JSON en un archivo
-nombre_archivo = "trabajador.json"
+nombre_archivo = "bibliometros.json"
 with open(nombre_archivo, "w") as archivo:
     archivo.write(json_estaciones)
 
