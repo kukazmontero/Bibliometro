@@ -5,8 +5,8 @@
       "L5"
     ],
     "Ubicacion": "fuera",
-    "Tipo": "kiosko",
-    "Trabajador": 0.821914169406748
+    "Tipo": "kiosco",
+    "Trabajador": 0.613232047073899
   },
   {
     "Estacion": "irarrazaval",
@@ -15,8 +15,8 @@
       "L5"
     ],
     "Ubicacion": "fuera",
-    "Tipo": "kiosko",
-    "Trabajador": 0.7658471063522709
+    "Tipo": "kiosco",
+    "Trabajador": 0.7849896686594396
   },
   {
     "Estacion": "san_pablo",
@@ -25,8 +25,8 @@
       "L5"
     ],
     "Ubicacion": "dentro",
-    "Tipo": "kiosko",
-    "Trabajador": 0.9386760101756291
+    "Tipo": "kiosco",
+    "Trabajador": 0.660118137362409
   },
   {
     "Estacion": "plaza_de_armas",
@@ -35,8 +35,8 @@
       "L5"
     ],
     "Ubicacion": "fuera",
-    "Tipo": "kiosko",
-    "Trabajador": 0.6448208807265494
+    "Tipo": "kiosco",
+    "Trabajador": 0.718245094977858
   },
   {
     "Estacion": "quinta_normal",
@@ -44,8 +44,8 @@
       "L5"
     ],
     "Ubicacion": "fuera",
-    "Tipo": "kiosko",
-    "Trabajador": 0.6030509597751649
+    "Tipo": "kiosco",
+    "Trabajador": 0.9004523462511607
   },
   {
     "Estacion": "la_cisterna",
@@ -54,8 +54,8 @@
       "L4A"
     ],
     "Ubicacion": "fuera",
-    "Tipo": "kiosko",
-    "Trabajador": 0.7540918043309434
+    "Tipo": "kiosco",
+    "Trabajador": 0.6731504316341808
   },
   {
     "Estacion": "escuela_militar",
@@ -63,8 +63,8 @@
       "L1"
     ],
     "Ubicacion": "fuera",
-    "Tipo": "kiosko",
-    "Trabajador": 0.6396391613502355
+    "Tipo": "kiosco",
+    "Trabajador": 0.7127051108574329
   },
   {
     "Estacion": "franklin",
@@ -73,8 +73,8 @@
       "L6"
     ],
     "Ubicacion": "dentro",
-    "Tipo": "kiosko",
-    "Trabajador": 0.5311862402331178
+    "Tipo": "kiosco",
+    "Trabajador": 0.8999220604943012
   },
   {
     "Estacion": "puente_alto",
@@ -82,8 +82,8 @@
       "L4"
     ],
     "Ubicacion": "fuera",
-    "Tipo": "kiosko",
-    "Trabajador": 0.5496224483466494
+    "Tipo": "kiosco",
+    "Trabajador": 0.8792030265301201
   },
   {
     "Estacion": "tobalaba",
@@ -92,8 +92,8 @@
       "L4"
     ],
     "Ubicacion": "fuera",
-    "Tipo": "kiosko",
-    "Trabajador": 0.9992057667449732
+    "Tipo": "kiosco",
+    "Trabajador": 0.98532646969992
   },
   {
     "Estacion": "vespucio_norte",
@@ -101,8 +101,8 @@
       "L2"
     ],
     "Ubicacion": "fuera",
-    "Tipo": "kiosko",
-    "Trabajador": 0.7603381658685453
+    "Tipo": "kiosco",
+    "Trabajador": 0.8173772417179523
   },
   {
     "Estacion": "los_heroes",
@@ -111,8 +111,8 @@
       "L2"
     ],
     "Ubicacion": "dentro",
-    "Tipo": "kiosko",
-    "Trabajador": 0.8375300648012209
+    "Tipo": "kiosco",
+    "Trabajador": 0.6324892266689488
   },
   {
     "Estacion": "macul",
@@ -120,8 +120,8 @@
       "L4"
     ],
     "Ubicacion": "dentro",
-    "Tipo": "kiosko",
-    "Trabajador": 0.5036656960897923
+    "Tipo": "kiosco",
+    "Trabajador": 0.7610889342851417
   },
   {
     "Estacion": "pajaritos",
@@ -129,8 +129,8 @@
       "L1"
     ],
     "Ubicacion": "dentro",
-    "Tipo": "kiosko",
-    "Trabajador": 0.5708679446686347
+    "Tipo": "kiosco",
+    "Trabajador": 0.8205032442830069
   },
   {
     "Estacion": "baquedano",
@@ -139,8 +139,8 @@
       "L5"
     ],
     "Ubicacion": "dentro",
-    "Tipo": "kiosko",
-    "Trabajador": 0.518540287960394
+    "Tipo": "kiosco",
+    "Trabajador": 0.9464490376154332
   },
   {
     "Estacion": "los_dominicos",
@@ -148,8 +148,8 @@
       "L1"
     ],
     "Ubicacion": "fuera",
-    "Tipo": "kiosko",
-    "Trabajador": 0.8953905676432237
+    "Tipo": "kiosco",
+    "Trabajador": 0.9590773408371458
   },
   {
     "Estacion": "ciudad_del_nino",
@@ -157,8 +157,8 @@
       "L2"
     ],
     "Ubicacion": "fuera",
-    "Tipo": "kiosko",
-    "Trabajador": 0.5201159213551627
+    "Tipo": "kiosco",
+    "Trabajador": 0.5162913202187016
   },
   {
     "Estacion": "plaza_egana",
@@ -167,8 +167,8 @@
       "L4"
     ],
     "Ubicacion": "dentro",
-    "Tipo": "kiosko",
-    "Trabajador": 0.9358856260364319
+    "Tipo": "kiosco",
+    "Trabajador": 0.5458176211626748
   },
   {
     "Estacion": "maipu",
@@ -176,8 +176,8 @@
       "L5"
     ],
     "Ubicacion": "fuera",
-    "Tipo": "kiosko",
-    "Trabajador": 0.5074954306155419
+    "Tipo": "kiosco",
+    "Trabajador": 0.9117403410268324
   },
   {
     "Estacion": "cerrillos",

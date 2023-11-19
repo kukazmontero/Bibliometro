@@ -5,7 +5,7 @@
       "L5"
     ],
     "Ubicacion": "fuera",
-    "Tipo": "kiosko",
+    "Tipo": "kiosco",
     "retorno": 0.46
   },
   {
@@ -15,7 +15,7 @@
       "L5"
     ],
     "Ubicacion": "fuera",
-    "Tipo": "kiosko",
+    "Tipo": "kiosco",
     "retorno": 0.6
   },
   {
@@ -25,7 +25,7 @@
       "L5"
     ],
     "Ubicacion": "dentro",
-    "Tipo": "kiosko",
+    "Tipo": "kiosco",
     "retorno": 0.3
   },
   {
@@ -35,7 +35,7 @@
       "L5"
     ],
     "Ubicacion": "fuera",
-    "Tipo": "kiosko",
+    "Tipo": "kiosco",
     "retorno": 0.15
   },
   {
@@ -44,7 +44,7 @@
       "L5"
     ],
     "Ubicacion": "fuera",
-    "Tipo": "kiosko",
+    "Tipo": "kiosco",
     "retorno": 0.34
   },
   {
@@ -54,7 +54,7 @@
       "L4A"
     ],
     "Ubicacion": "fuera",
-    "Tipo": "kiosko",
+    "Tipo": "kiosco",
     "retorno": 0.5
   },
   {
@@ -63,7 +63,7 @@
       "L1"
     ],
     "Ubicacion": "fuera",
-    "Tipo": "kiosko",
+    "Tipo": "kiosco",
     "retorno": 0.75
   },
   {
@@ -73,7 +73,7 @@
       "L6"
     ],
     "Ubicacion": "dentro",
-    "Tipo": "kiosko",
+    "Tipo": "kiosco",
     "retorno": 0.23
   },
   {
@@ -82,7 +82,7 @@
       "L4"
     ],
     "Ubicacion": "fuera",
-    "Tipo": "kiosko",
+    "Tipo": "kiosco",
     "retorno": 0.42
   },
   {
@@ -92,7 +92,7 @@
       "L4"
     ],
     "Ubicacion": "fuera",
-    "Tipo": "kiosko",
+    "Tipo": "kiosco",
     "retorno": 0.72
   },
   {
@@ -101,7 +101,7 @@
       "L2"
     ],
     "Ubicacion": "fuera",
-    "Tipo": "kiosko",
+    "Tipo": "kiosco",
     "retorno": 0.57
   },
   {
@@ -111,7 +111,7 @@
       "L2"
     ],
     "Ubicacion": "dentro",
-    "Tipo": "kiosko",
+    "Tipo": "kiosco",
     "retorno": 0.68
   },
   {
@@ -120,7 +120,7 @@
       "L4"
     ],
     "Ubicacion": "dentro",
-    "Tipo": "kiosko",
+    "Tipo": "kiosco",
     "retorno": 0.63
   },
   {
@@ -129,7 +129,7 @@
       "L1"
     ],
     "Ubicacion": "dentro",
-    "Tipo": "kiosko",
+    "Tipo": "kiosco",
     "retorno": 0.37
   },
   {
@@ -139,7 +139,7 @@
       "L5"
     ],
     "Ubicacion": "dentro",
-    "Tipo": "kiosko",
+    "Tipo": "kiosco",
     "retorno": 0.43
   },
   {
@@ -148,7 +148,7 @@
       "L1"
     ],
     "Ubicacion": "fuera",
-    "Tipo": "kiosko",
+    "Tipo": "kiosco",
     "retorno": 0.8
   },
   {
@@ -157,7 +157,7 @@
       "L2"
     ],
     "Ubicacion": "fuera",
-    "Tipo": "kiosko",
+    "Tipo": "kiosco",
     "retorno": 0.51
   },
   {
@@ -167,7 +167,7 @@
       "L4"
     ],
     "Ubicacion": "dentro",
-    "Tipo": "kiosko",
+    "Tipo": "kiosco",
     "retorno": 0.82
   },
   {
@@ -176,7 +176,7 @@
       "L5"
     ],
     "Ubicacion": "fuera",
-    "Tipo": "kiosko",
+    "Tipo": "kiosco",
     "retorno": 0.47
   },
   {
