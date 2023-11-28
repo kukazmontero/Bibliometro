@@ -1,5 +1,0 @@
-Flask
-SQLAlchemy
-GeoAlchemy2
-flask_sqlalchemy==3.0.0
-psycopg2

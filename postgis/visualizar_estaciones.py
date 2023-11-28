@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 connection_string = "postgresql://user:password@postgres:5432/metro_santiago_3"
 
 gdf = gpd.read_postgis("""
-  SELECT *, ST_AsBinary(ST_MakePoint(longitud, latitud)) AS geom
+  SELECT *, ST_SetSRID(ST_MakePoint(longitud, latitud), 4326) AS geom
   FROM coordenadas
 """, connection_string, geom_col='geom')
 
