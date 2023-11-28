@@ -3,7 +3,7 @@ FROM postgis/postgis:13-3.2
 # Establecer variables de entorno para credenciales de base de datos (ajústalas según tus necesidades)
 ENV POSTGRES_DB=metro_santiago_3
 ENV POSTGRES_USER=user
-ENV POSTGRES_PASSWORD=passworda
+ENV POSTGRES_PASSWORD=password
 
 # Verificar si el archivo SQL antiguo existe antes de intentar eliminarlo
 RUN test -e /docker-entrypoint-initdb.d/metro_santiago.sql && rm /docker-entrypoint-initdb.d/metro_santiago.sql || true

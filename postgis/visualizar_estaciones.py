@@ -3,10 +3,14 @@ import matplotlib.pyplot as plt
 
 # Conexión a la base de datos PostGIS
 connection_string = "postgresql://user:password@postgres:5432/metro_santiago_3"
-gdf = gpd.read_postgis("SELECT * FROM coordenadas", connection_string)
+
+gdf = gpd.read_postgis("""
+  SELECT *, ST_AsBinary(ST_MakePoint(longitud, latitud)) AS geom
+  FROM coordenadas
+""", connection_string, geom_col='geom')
 
 # Imprime el DataFrame para verificar que se cargó correctamente
-print("Imprimiendo gdf: ",gdf)
+print("Imprimiendo gdf: ", gdf.head())
 
 # Crear un mapa
 fig, ax = plt.subplots(figsize=(10, 10))
