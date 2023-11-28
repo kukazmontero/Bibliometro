@@ -1,18 +1,14 @@
-# Use the official PostgreSQL base image from Docker Hub
-FROM postgres:latest
+FROM postgis/postgis:13-3.2
 
-# Environment variables for PostgreSQL
-ENV POSTGRES_DB=mydatabase
-ENV POSTGRES_USER=myuser
-ENV POSTGRES_PASSWORD=mypassword
+# Establecer variables de entorno para credenciales de base de datos (ajústalas según tus necesidades)
+ENV POSTGRES_DB=metro_santiago_3
+ENV POSTGRES_USER=user
+ENV POSTGRES_PASSWORD=passworda
 
-# Expose the default PostgreSQL port
-EXPOSE 5432
+# Verificar si el archivo SQL antiguo existe antes de intentar eliminarlo
+RUN test -e /docker-entrypoint-initdb.d/metro_santiago.sql && rm /docker-entrypoint-initdb.d/metro_santiago.sql || true
 
-# Custom initialization script (optional)
-COPY init.sql /docker-entrypoint-initdb.d/
+# Copiar el archivo SQL para inicializar la base de datos
+COPY metro_santiago.sql /docker-entrypoint-initdb.d/
 
-# You can add additional setup or configuration here
-
-# Start PostgreSQL when the container runs
-CMD ["postgres"]
+# El contenedor ejecutará automáticamente los scripts SQL en /docker-entrypoint-initdb.d/ para inicializar la base de datos

@@ -62,10 +62,10 @@
       "L1"
     ],
     "estado": 0,
-    "siguiente estacion": "u.l.a."
+    "siguiente estacion": "ula"
   },
   {
-    "estacion": "u.l.a.",
+    "estacion": "ula",
     "lineas": [
       "L1"
     ],
@@ -310,10 +310,10 @@
       "L2"
     ],
     "estado": 0,
-    "siguiente estacion": "parque o'higgins"
+    "siguiente estacion": "parque ohiggins"
   },
   {
-    "estacion": "parque o'higgins",
+    "estacion": "parque ohiggins",
     "lineas": [
       "L2"
     ],
@@ -1075,10 +1075,10 @@
       "L6"
     ],
     "estado": 0,
-    "siguiente estacion": "pdte. pedro aguirre cerda"
+    "siguiente estacion": "pdte pedro aguirre cerda"
   },
   {
-    "estacion": "pdte. pedro aguirre cerda",
+    "estacion": "pdte pedro aguirre cerda",
     "lineas": [
       "L6"
     ],

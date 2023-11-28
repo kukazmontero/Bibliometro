@@ -2,10 +2,11 @@ import requests
 import json
 import unicodedata
 
-# Función para quitar tildes y reemplazar "ñ" por "n"
+# Función para quitar tildes y eliminar caracteres especiales
 def limpiar_texto(texto):
     texto_sin_tilde = ''.join((c for c in unicodedata.normalize('NFD', texto) if unicodedata.category(c) != 'Mn'))
-    return texto_sin_tilde.replace('ñ', 'n').replace('Ñ', 'N')
+    texto_sin_caracteres_especiales = ''.join(c for c in texto_sin_tilde if c.isalnum() or c.isspace())
+    return texto_sin_caracteres_especiales.replace('ñ', 'n').replace('Ñ', 'N')
 
 # URL de la API
 url = "https://api.xor.cl/red/metro-network"
@@ -34,7 +35,8 @@ if response.status_code == 200:
             if estacion["status"] == 0:  # Estación operativa
                 index_actual = linea["stations"].index(estacion)
                 if index_actual < len(linea["stations"]) - 1:
-                    estacion_continua = limpiar_texto(linea["stations"][index_actual + 1]["name"].lower())
+                    estacion_continua_original = linea["stations"][index_actual + 1]["name"]
+                    estacion_continua = limpiar_texto(estacion_continua_original.lower())
 
             # Agregar la información a la lista
             estacion_info = {

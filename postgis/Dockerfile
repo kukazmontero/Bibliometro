@@ -1,7 +1,14 @@
-# Utiliza la imagen oficial de PostGIS
-FROM mdillon/postgis:latest
+# Dockerfile de postgis
 
-# Define las variables de entorno para PostGIS
-ENV POSTGIS_DB=mydb
-ENV POSTGIS_USER=myuser
-ENV POSTGIS_PASS=mypassword
+FROM postgis/postgis:13-3.2
+
+# Instalar paquetes adicionales necesarios para visualización
+RUN apt-get update && apt-get install -y \
+    python3 \
+    python3-pip
+
+# Instalar bibliotecas de Python
+RUN pip3 install geopandas matplotlib Flask
+
+# Crear un directorio para almacenar la imagen en el host
+RUN mkdir -p /output

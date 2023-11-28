@@ -1,44 +1,47 @@
-version: '3'
+version: '3.8'
 
 services:
   postgres:
-    image: postgres:latest
-    environment:
-      POSTGRES_DB: mydb
-      POSTGRES_USER: myuser
-      POSTGRES_PASSWORD: mypassword
+    build: 
+      context: ./postgres
+      dockerfile: Dockerfile
     ports:
-      - "5432:5432"
+     - "5432:5432"
     networks:
-      - app-tier
+     - app-network
 
   postgis:
-    image: mdillon/postgis:latest
-    environment:
-      POSTGIS_DB: mydb
-      POSTGIS_USER: myuser
-      POSTGIS_PASS: mypassword
+    build: 
+      context: ./postgis
+      dockerfile: Dockerfile
+    ports:
+      - "5432"
     depends_on:
       - postgres
     networks:
-      - app-tier
+      - app-network
+    volumes:
+      - ./postgis/output:/output
+    environment:
+      POSTGRES_HOST: 0.0.0.0
+      POSTGRES_DB: metro_santiago_3
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: password
 
-  pgrouting:
-    image: pgrouting/pgrouting:latest
+
+  flask-server:
+    build:
+      context: ./flask
+      dockerfile: Dockerfile
+    ports:
+      - "5001:5001"
     depends_on:
       - postgis
     networks:
-      - app-tier
-  web:
-    build:
-      context: ./web
-      dockerfile: Dockerfile
-    ports:
-      - "8080:80"
-    depends_on:
-      - postgres
-    networks:
-      - app-tier
+      - app-network
+    volumes:
+     - ./postgis/output:/output
+
 networks:
-  app-tier:
+  app-network:
     driver: bridge
