@@ -50,16 +50,7 @@ def index():
 
 @app.route('/mapa_estaciones') 
 def mapa_estaciones():
-    return send_file('output/mapa_estaciones.png', mimetype='image/png')   
+    return send_file('../output/mapa_estaciones.png', mimetype='image/png')   
 
-def start_flask():
-    try:
-        print("Iniciando aplicación Flask en puerto 5000")
-        app.run(debug=True, host="0.0.0.0", port=5000) 
-    except Exception as e:
-        print(f"Error iniciando Flask: {e}")
-        sys.exit(1)
-
-if __name__ == '__main__': 
-    print("BD disponible, iniciando Flask")
-    start_flask()
+if __name__ == "__main__":
+    socketio.run(app, debug=True, host="0.0.0.0", port=5000)

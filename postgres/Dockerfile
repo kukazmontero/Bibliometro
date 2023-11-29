@@ -10,5 +10,3 @@ RUN test -e /docker-entrypoint-initdb.d/metro_santiago.sql && rm /docker-entrypo
 
 # Copiar el archivo SQL para inicializar la base de datos
 COPY metro_santiago.sql /docker-entrypoint-initdb.d/
-
-# El contenedor ejecutará automáticamente los scripts SQL en /docker-entrypoint-initdb.d/ para inicializar la base de datos

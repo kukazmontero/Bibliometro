@@ -1,22 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mapa Estaciones</title>
+  <!-- metadata -->
 </head>
 <body>
-    <img src="{{ url_for('mapa_estaciones') }}" alt="Mapa de Estaciones" id="mapa">
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js"></script>
-    <script>
-        var socket = io.connect('http://' + document.domain + ':' + location.port + '/mapa');
 
-        // Función para actualizar el mapa cuando se recibe una actualización del servidor
-        socket.on('actualizar_mapa', function(data) {
-            // Actualizar la imagen del mapa
-            document.getElementById('mapa').src = "{{ url_for('mapa_estaciones') }}?" + new Date().getTime();
-        });
-    </script>
+  <img src="{{ url_for('mapa_estaciones') }}" alt="Mapa de Estaciones" id="mapa">
+
 </body>
 </html>

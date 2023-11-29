@@ -6,45 +6,41 @@ services:
       context: ./postgres
       dockerfile: Dockerfile
     ports:
-     - "5432:5432"
+      - "5432:5432"
     networks:
-     - app-network
+      - app-network
     volumes:
-     - postgres_data:/var/lib/postgresql/data
+      - postgres_data:/var/lib/postgresql/data
 
   postgis:
     build: 
       context: ./postgis
       dockerfile: Dockerfile
-    ports:
-      - "5432"
     depends_on:
       - postgres
-    networks:
-      - app-network
-    command: bash /run.sh
     volumes:
       - ./postgis/output:/output
       - postgis_data:/var/lib/postgresql/data
-    environment:
-      POSTGRES_HOST: 127.0.0.1
-      POSTGRES_DB: metro_santiago_3
-      POSTGRES_USER: user
-      POSTGRES_PASSWORD: password
+    command: cp /docker-entrypoint-initdb.d/*.sql /var/lib/postgresql/data/
 
 
-  flask-server:
-    build:
-      context: ./flask
-      dockerfile: Dockerfile
-    ports:
-      - "5001:5000"
-    depends_on:
-      - postgis
+  # flask-server:
+  #   build:
+  #     context: ./flask
+  #     dockerfile: Dockerfile
+  #   ports:
+  #     - "5000:5000"
+  #   depends_on:
+  #     - postgis
+  #   networks:
+  #     - app-network
+  #   volumes:
+  #     - ./postgis/output:/output
+
+  qgis:
+    image: qgis/qgis:latest
     networks:
       - app-network
-    volumes:
-     - ./postgis/output:/output
 
 networks:
   app-network:

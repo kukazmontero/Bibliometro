@@ -1,14 +1,15 @@
-# Dockerfile de PostGIS
 FROM postgis/postgis:13-3.2
 
-# Actualizar e instalar paquetes en build en lugar de iniciar contenedor
-RUN apt-get update && apt-get install -y libpq-dev\ 
-    python3 \
-    python3-pip
+# Establecer variables de entorno para credenciales de base de datos (ajústalas según tus necesidades)
+ENV POSTGRES_DB=metro_santiago_3
+ENV POSTGRES_USER=user
+ENV POSTGRES_PASSWORD=password
 
-RUN pip install geopandas matplotlib Flask
+# Copiar el archivo SQL principal para inicializar la base de datos desde la carpeta postgres
+#COPY ../postgres/metro_santiago.sql /docker-entrypoint-initdb.d/
 
-COPY visualizar_estaciones.py /
-COPY run.sh /run.sh
-RUN pip install SQLAlchemy psycopg2
-RUN chmod +x /run.sh
+# Copiar el archivo SQL para generar vistas desde la carpeta postgis
+COPY crear_vistas.sql /docker-entrypoint-initdb.d/
+
+
+# El contenedor ejecutará automáticamente los scripts SQL en /docker-entrypoint-initdb.d/ para inicializar la base de datos
