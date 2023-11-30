@@ -9,6 +9,8 @@ def read_files(directory):
         file_path = os.path.join(directory, file_name)
         with open(file_path, 'r', encoding='utf-8') as file:
             content = file.read().strip()
+            # dejar en minuscula content 
+            content = content.lower()
             data[content] = []
 
     return data
