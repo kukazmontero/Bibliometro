@@ -1,5 +1,4 @@
-| Algoritmos de Ruteo y Redes Resilientes - Bibliometro |
-|------------------------------------------------------|
+## Algoritmos de Ruteo y Redes Resilientes - Bibliometro
 
 | **Integrantes del Grupo 1**                           |
 |------------------------------------------------------|
