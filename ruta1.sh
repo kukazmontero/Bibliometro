@@ -1,9 +1,9 @@
+#!/bin/bash
+
 # Nombre del archivo GeoJSON de entrada
 METRO_GEOJSON="metro_data.geojson"
-# Nombre del archivo GeoJSON de salida con la ruta
-METRO_ROUTE_GEOJSON="metro_data_with_route.geojson"
-
-# ... (Tu código actual para generar el GeoJSON)
+# Nombre del archivo GeoJSON de salida con la ruta de Dijkstra
+METRO_DIJKSTRA_ROUTE_GEOJSON="metro_data_with_dijkstra_route.geojson"
 
 # Crear tabla de vértices solo si no existe
 docker exec -i bibliometro-postgis-1 psql -U user -d metro_santiago -c "
@@ -26,7 +26,7 @@ docker exec -i bibliometro-postgis-1 psql -U user -d metro_santiago -c "
         JOIN vertices v2 ON e.estacion_destino = v2.estacion;
 "
 
-# Consultar ruta usando pgrouting y escribir el GeoJSON
+# Consultar ruta usando Dijkstra y escribir el GeoJSON
 docker exec -i bibliometro-postgis-1 psql -U user -d metro_santiago -t -A -F',' -c "
     SELECT
         seq,
@@ -34,7 +34,7 @@ docker exec -i bibliometro-postgis-1 psql -U user -d metro_santiago -t -A -F',' 
         v.linea,
         v.tipo,
         ST_AsGeoJSON(ST_Transform(ST_SetSRID(v.coordenadas, 4326), 4326))::json AS geometry
-    INTO TEMPORARY TABLE route
+    INTO TEMPORARY TABLE dijkstra_route
     FROM (
         SELECT
             seq,
@@ -53,18 +53,15 @@ docker exec -i bibliometro-postgis-1 psql -U user -d metro_santiago -t -A -F',' 
             false
         ) AS e
         JOIN vertices v ON e.node = v.id
-    ) AS route;
+    ) AS dijkstra_route;
 
     -- Escribir el GeoJSON
     COPY (
-        SELECT * FROM route
-    ) TO '/path/to/$METRO_ROUTE_GEOJSON' WITH CSV HEADER;
+        SELECT * FROM dijkstra_route
+    ) TO '/path/to/$METRO_DIJKSTRA_ROUTE_GEOJSON' WITH CSV HEADER;
 
-    -- Concatenar el archivo GeoJSON de ruta con el archivo original
-    cat '/path/to/$METRO_GEOJSON' '/path/to/$METRO_ROUTE_GEOJSON' > '/path/to/$METRO_ROUTE_GEOJSON';
+    echo "GeoJSON con ruta Dijkstra generada en $METRO_DIJKSTRA_ROUTE_GEOJSON";
 
     -- Limpiar tabla temporal
-    DROP TABLE IF EXISTS route;
+    DROP TABLE IF EXISTS dijkstra_route;
 "
-
-echo "GeoJSON con ruta generada en $METRO_ROUTE_GEOJSON"

@@ -1,9 +1,9 @@
+#!/bin/bash
+
 # Nombre del archivo GeoJSON de entrada
 METRO_GEOJSON="metro_data.geojson"
-# Nombre del archivo GeoJSON de salida con la ruta
+# Nombre del archivo GeoJSON de salida con la ruta de A*
 METRO_ASTAR_ROUTE_GEOJSON="metro_data_with_astar_route.geojson"
-
-# ... (Tu código actual para generar el GeoJSON)
 
 # Crear tabla de vértices solo si no existe
 docker exec -i bibliometro-postgis-1 psql -U user -d metro_santiago -c "
@@ -48,8 +48,8 @@ docker exec -i bibliometro-postgis-1 psql -U user -d metro_santiago -t -A -F',' 
             e.cost
         FROM pgr_astar(
             'SELECT id, source, target, cost FROM conexiones_edges',
-            (SELECT id FROM vertices WHERE estacion = 'san pablo'),
-            (SELECT id FROM vertices WHERE estacion = 'los heroes'),
+            (SELECT id FROM vertices WHERE estacion = ''san pablo''),
+            (SELECT id FROM vertices WHERE estacion = ''los heroes''),
             false, false
         ) AS e
         JOIN vertices v ON e.node = v.id
@@ -58,13 +58,10 @@ docker exec -i bibliometro-postgis-1 psql -U user -d metro_santiago -t -A -F',' 
     -- Escribir el GeoJSON
     COPY (
         SELECT * FROM astar_route
-    ) TO '/path/to/$METRO_ASTAR_ROUTE_GEOJSON' WITH CSV HEADER;
+    ) TO './$METRO_ASTAR_ROUTE_GEOJSON' WITH CSV HEADER;
 
-    -- Concatenar el archivo GeoJSON de ruta con el archivo original
-    cat '/path/to/$METRO_GEOJSON' '/path/to/$METRO_ASTAR_ROUTE_GEOJSON' > '/path/to/$METRO_ASTAR_ROUTE_GEOJSON';
+    echo "GeoJSON con ruta A* generada en $METRO_ASTAR_ROUTE_GEOJSON";
 
     -- Limpiar tabla temporal
     DROP TABLE IF EXISTS astar_route;
 "
-
-echo "GeoJSON con ruta generada en $METRO_ASTAR_ROUTE_GEOJSON"

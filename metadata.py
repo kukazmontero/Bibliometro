@@ -48,6 +48,14 @@ def insert_data_into_coordenadas(file, estacion, longitud, latitud, estaciones_p
         # Agregar la estación al conjunto de estaciones procesadas
         estaciones_procesadas.add(estacion_escaped)
 
+def insert_data_into_fallas(file, estacion, lineas, ubicacion, tipo, valor, table_name):
+    for linea in lineas:
+        # Escapar el nombre de la estación para evitar problemas con caracteres especiales
+        estacion_escaped = estacion.replace("'", "''")
+        file.write(
+            f"INSERT INTO {table_name} (estacion, linea, ubicacion, tipo, valor) VALUES ('{estacion_escaped}', '{linea}', '{ubicacion}', '{tipo}', {valor});\n"
+        )
+
 def main():
     try:
         # Arreglo para almacenar las estaciones ya procesadas en coordenadas
@@ -173,6 +181,72 @@ def main():
             sql_file.write(") AS di\n")
             sql_file.write("JOIN coordenadas AS c ON di.node = c.id;\n")
 
+            # Crear tabla para bestsellers_espanol.json
+            create_table_if_not_exists(
+                sql_file,
+                "bestsellers_espanol",
+                ["titulo TEXT NOT NULL", "autos INTEGER NOT NULL"],
+                primary_key=["titulo"]
+            )
+
+            # Cargar datos de bestsellers_espanol.json
+            with open("fallas/bestsellers_espanol.json", "r", encoding="utf-8") as archivo_bestsellers:
+
+                bestsellers = json.load(archivo_bestsellers)
+                for item in bestsellers:
+                    titulo = item.get('titulo', '')
+                    autos = item.get('autos', 0)
+
+                    # Insertar en la tabla bestsellers_espanol
+                    insert_data_into_fallas(sql_file, titulo, [], '', '', autos, 'bestsellers_espanol')
+
+            archivo_bestsellers.close()
+
+            # Crear tabla para retorno.json
+            create_table_if_not_exists(
+                sql_file,
+                "retorno",
+                ["estacion TEXT NOT NULL", "lineas TEXT[] NOT NULL", "ubicacion TEXT NOT NULL", "tipo TEXT NOT NULL", "retorno REAL NOT NULL"],
+                primary_key=["estacion"]
+            )
+
+            # Cargar datos de retorno.json
+            with open("fallas/retorno.json", "r", encoding="utf-8") as archivo_retorno:
+                retorno = json.load(archivo_retorno)
+                for item in retorno:
+                    estacion = item.get('Estacion', '')
+                    lineas = item.get('Lineas', [])
+                    ubicacion = item.get('Ubicacion', '')
+                    tipo = item.get('Tipo', '')
+                    retorno_valor = item.get('retorno', 0.0)
+
+                    # Insertar en la tabla retorno
+                    insert_data_into_fallas(sql_file, estacion, lineas, ubicacion, tipo, retorno_valor, 'retorno')
+
+            archivo_retorno.close()
+
+            # Crear tabla para trabajador.json
+            create_table_if_not_exists(
+                sql_file,
+                "trabajador",
+                ["estacion TEXT NOT NULL", "lineas TEXT[] NOT NULL", "ubicacion TEXT NOT NULL", "tipo TEXT NOT NULL", "trabajador REAL NOT NULL"],
+                primary_key=["estacion"]
+            )
+
+            # Cargar datos de trabajador.json
+            with open("fallas/trabajador.json", "r", encoding="utf-8") as archivo_trabajador:
+                trabajador = json.load(archivo_trabajador)
+                for item in trabajador:
+                    estacion = item.get('Estacion', '')
+                    lineas = item.get('Lineas', [])
+                    ubicacion = item.get('Ubicacion', '')
+                    tipo = item.get('Tipo', '')
+                    trabajador_valor = item.get('Trabajador', 0.0)
+
+                    # Insertar en la tabla trabajador
+                    insert_data_into_fallas(sql_file, estacion, lineas, ubicacion, tipo, trabajador_valor, 'trabajador')
+
+            archivo_trabajador.close()
 
     except Exception as e:
         print(f"Error: {e}")
