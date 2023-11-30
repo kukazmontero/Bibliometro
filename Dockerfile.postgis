@@ -1,0 +1,29 @@
+# Usa la imagen oficial de PostgreSQL con PostGIS
+FROM postgis/postgis:latest
+
+# Copia el script SQL de inicialización a la carpeta de entrada del contenedor
+COPY init.sql /docker-entrypoint-initdb.d/
+
+# Instala pgRouting desde la fuente
+RUN apt-get update && apt-get install -y \
+    build-essential \
+    cmake \
+    libboost-all-dev \
+    libpq-dev \
+    libsparsehash-dev \
+    lua5.2 \
+    liblua5.2-dev \
+    pkg-config \
+    postgresql-server-dev-16 \
+    postgresql-16-pgrouting \
+    gdal-bin \
+    && rm -rf /var/lib/apt/lists/*
+
+
+# Establece las variables de entorno necesarias para PostgreSQL
+ENV POSTGRES_DB metro_santiago
+ENV POSTGRES_USER user
+ENV POSTGRES_PASSWORD password
+
+# Expone el puerto 5432 para la conexión a PostgreSQL
+EXPOSE 5432

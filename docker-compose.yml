@@ -1,51 +1,11 @@
-version: '3.8'
-
+version: '3'
 services:
-  postgres:
-    build: 
-      context: ./postgres
-      dockerfile: Dockerfile
-    ports:
-      - "5432:5432"
-    networks:
-      - app-network
-    volumes:
-      - postgres_data:/var/lib/postgresql/data
-
   postgis:
-    build: 
-      context: ./postgis
-      dockerfile: Dockerfile
-    depends_on:
-      - postgres
+    build:
+      context: .
+      dockerfile: Dockerfile.postgis
+    ports:
+      - "5433:5432"  # Cambiado el puerto de mapeo del contenedor
     volumes:
-      - ./postgis/output:/output
-      - postgis_data:/var/lib/postgresql/data
-    command: cp /docker-entrypoint-initdb.d/*.sql /var/lib/postgresql/data/
-
-
-  # flask-server:
-  #   build:
-  #     context: ./flask
-  #     dockerfile: Dockerfile
-  #   ports:
-  #     - "5000:5000"
-  #   depends_on:
-  #     - postgis
-  #   networks:
-  #     - app-network
-  #   volumes:
-  #     - ./postgis/output:/output
-
-  qgis:
-    image: qgis/qgis:latest
-    networks:
-      - app-network
-
-networks:
-  app-network:
-    driver: bridge
-
-volumes:
-  postgres_data:
-  postgis_data:
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+      - ./data:/data
