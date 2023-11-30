@@ -63,10 +63,14 @@ for i in range(ord('a'), ord('z')+1):
                                 if respuesta_libro.status_code == 200:
                                     # Verificar si la respuesta contiene la frase "no tiene copias"
                                     contiene_frase = "no tiene copias" in respuesta_libro.text
-                                    archivo.write(f"{texto_interno}{'0' if contiene_frase else '1'}\n")
+                                    archivo.write(f"{texto_interno}{'1' if contiene_frase else '0'}\n")
                                     print(f"Datos para s={valor_s} guardados en {ruta_archivo}")
                                 else:
                                     print(f"Error para s={valor_s}. Fallo en la solicitud de la página del libro. Código de estado: {respuesta_libro.status_code}")
+                                    # Escribir de todas formas
+                                    contiene_frase = False
+                                    archivo.write(f"{texto_interno}{'1' if contiene_frase else '0'}\n")
+                                    print(f"Datos para s={valor_s} guardados en {ruta_archivo}")
                     else:
                         print(f"No se encontraron elementos <div> para s={valor_s}")
                 else:
