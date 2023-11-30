@@ -53,7 +53,11 @@ def main():
         # Arreglo para almacenar las estaciones ya procesadas en coordenadas
         estaciones_procesadas = set()
 
-        with open("postgres/metro_santiago.sql", "w", encoding="utf-8") as sql_file:
+        with open("init.sql", "w", encoding="utf-8") as sql_file:
+
+            sql_file.write(f"CREATE EXTENSION IF NOT EXISTS postgis;\n")
+            sql_file.write(f"CREATE EXTENSION IF NOT EXISTS pgrouting;\n")
+
             # Crear tabla bibliometros
             create_table_if_not_exists(
                 sql_file,

@@ -1,3 +1,5 @@
+CREATE EXTENSION IF NOT EXISTS postgis;
+CREATE EXTENSION IF NOT EXISTS pgrouting;
 CREATE TABLE IF NOT EXISTS bibliometros (estacion TEXT NOT NULL, ubicacion TEXT, tipo TEXT, linea TEXT NOT NULL, PRIMARY KEY (estacion, linea));
 INSERT INTO bibliometros (estacion, linea, ubicacion, tipo) VALUES ('bellavista', 'L5', 'fuera', 'kiosco');
 INSERT INTO bibliometros (estacion, linea, ubicacion, tipo) VALUES ('irarrazaval', 'L3', 'fuera', 'kiosco');
