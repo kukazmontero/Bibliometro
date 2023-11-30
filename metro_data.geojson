@@ -1,617 +1,2080 @@
 {"type":"FeatureCollection","features":[
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.72312,-33.445454]},"properties":{"estacion":"san pablo","linea":"L1"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.72312,-33.445454]},"properties":{"estacion":"san pablo","linea":"L5"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.72265,-33.451538]},"properties":{"estacion":"neptuno","linea":"L1"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.715935,-33.457417]},"properties":{"estacion":"pajaritos","linea":"L1"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.70587,-33.457367]},"properties":{"estacion":"las rejas","linea":"L1"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.70109,-33.45627]},"properties":{"estacion":"ecuador","linea":"L1"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.626205,-33.433468]},"properties":{"estacion":"san alberto hurtado","linea":"L1"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.68637,-33.45283]},"properties":{"estacion":"universidad de santiago","linea":"L1"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.679146,-33.450874]},"properties":{"estacion":"estacion central","linea":"L1"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.612434,-33.42493]},"properties":{"estacion":"republica","linea":"L1"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.661705,-33.446487]},"properties":{"estacion":"los heroes","linea":"L1"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.661705,-33.446487]},"properties":{"estacion":"los heroes","linea":"L2"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.65479,-33.444855]},"properties":{"estacion":"la moneda","linea":"L1"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.65029,-33.443764]},"properties":{"estacion":"universidad de chile","linea":"L1"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.65029,-33.443764]},"properties":{"estacion":"universidad de chile","linea":"L3"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.6452,-33.442554]},"properties":{"estacion":"santa lucia","linea":"L1"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.64003,-33.439854]},"properties":{"estacion":"universidad catolica","linea":"L1"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.63312,-33.43728]},"properties":{"estacion":"baquedano","linea":"L1"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.63312,-33.43728]},"properties":{"estacion":"baquedano","linea":"L5"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.66704,-33.447704]},"properties":{"estacion":"salvador","linea":"L1"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.61892,-33.4292]},"properties":{"estacion":"manuel montt","linea":"L1"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.69237,-33.454224]},"properties":{"estacion":"pedro de valdivia","linea":"L1"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.60865,-33.422173]},"properties":{"estacion":"los leones","linea":"L1"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.60865,-33.422173]},"properties":{"estacion":"los leones","linea":"L6"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.60279,-33.41872]},"properties":{"estacion":"tobalaba","linea":"L1"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.60279,-33.41872]},"properties":{"estacion":"tobalaba","linea":"L4"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.595856,-33.416656]},"properties":{"estacion":"el golf","linea":"L1"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.58968,-33.41544]},"properties":{"estacion":"alcantara","linea":"L1"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.58464,-33.41429]},"properties":{"estacion":"escuela militar","linea":"L1"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.56812,-33.409027]},"properties":{"estacion":"manquehue","linea":"L1"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.555595,-33.408005]},"properties":{"estacion":"hernando de magallanes","linea":"L1"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.54508,-33.407898]},"properties":{"estacion":"los dominicos","linea":"L1"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.64618,-33.38113]},"properties":{"estacion":"vespucio norte","linea":"L2"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.64244,-33.390938]},"properties":{"estacion":"zapadores","linea":"L2"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.64274,-33.396805]},"properties":{"estacion":"dorsal","linea":"L2"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.64318,-33.40648]},"properties":{"estacion":"einstein","linea":"L2"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.64362,-33.41387]},"properties":{"estacion":"cementerios","linea":"L2"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.644936,-33.422478]},"properties":{"estacion":"cerro blanco","linea":"L2"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.64706,-33.42963]},"properties":{"estacion":"patronato","linea":"L2"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.65223,-33.432945]},"properties":{"estacion":"puente cal y canto","linea":"L2"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.65223,-33.432945]},"properties":{"estacion":"puente cal y canto","linea":"L3"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.65873,-33.439255]},"properties":{"estacion":"santa ana","linea":"L2"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.65873,-33.439255]},"properties":{"estacion":"santa ana","linea":"L5"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.661705,-33.446487]},"properties":{"estacion":"los heroes","linea":"L1"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.661705,-33.446487]},"properties":{"estacion":"los heroes","linea":"L2"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.65874,-33.45235]},"properties":{"estacion":"toesca","linea":"L2"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.65682,-33.460842]},"properties":{"estacion":"parque ohiggins","linea":"L2"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.65666,-33.47025]},"properties":{"estacion":"rondizzoni","linea":"L2"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.6494,-33.476067]},"properties":{"estacion":"franklin","linea":"L2"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.6494,-33.476067]},"properties":{"estacion":"franklin","linea":"L6"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.649124,-33.482597]},"properties":{"estacion":"el llano","linea":"L2"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.65069,-33.488995]},"properties":{"estacion":"san miguel","linea":"L2"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.65289,-33.496414]},"properties":{"estacion":"lo vial","linea":"L2"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.6548,-33.50307]},"properties":{"estacion":"departamental","linea":"L2"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.656654,-33.509613]},"properties":{"estacion":"ciudad del nino","linea":"L2"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.658806,-33.517235]},"properties":{"estacion":"lo ovalle","linea":"L2"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.66142,-33.526512]},"properties":{"estacion":"el parron","linea":"L2"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.664474,-33.53797]},"properties":{"estacion":"la cisterna","linea":"L2"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.664474,-33.53797]},"properties":{"estacion":"la cisterna","linea":"L4A"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.72991,-33.364983]},"properties":{"estacion":"plaza quilicura","linea":"L3"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.71984,-33.36673]},"properties":{"estacion":"lo cruzat","linea":"L3"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.705925,-33.365486]},"properties":{"estacion":"ferrocarril","linea":"L3"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.68754,-33.367138]},"properties":{"estacion":"los libertadores","linea":"L3"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.685455,-33.373016]},"properties":{"estacion":"cardenal caro","linea":"L3"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.679504,-33.385143]},"properties":{"estacion":"vivaceta","linea":"L3"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.670334,-33.397243]},"properties":{"estacion":"conchali","linea":"L3"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.66093,-33.40608]},"properties":{"estacion":"plaza chacabuco","linea":"L3"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.655685,-33.417755]},"properties":{"estacion":"hospitales","linea":"L3"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.65223,-33.432945]},"properties":{"estacion":"puente cal y canto","linea":"L2"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.65223,-33.432945]},"properties":{"estacion":"puente cal y canto","linea":"L3"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.64982,-33.436672]},"properties":{"estacion":"plaza de armas","linea":"L3"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.64982,-33.436672]},"properties":{"estacion":"plaza de armas","linea":"L5"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.65029,-33.443764]},"properties":{"estacion":"universidad de chile","linea":"L1"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.65029,-33.443764]},"properties":{"estacion":"universidad de chile","linea":"L3"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.65047,-33.451565]},"properties":{"estacion":"parque almagro","linea":"L3"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.64315,-33.457973]},"properties":{"estacion":"matta","linea":"L3"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.627945,-33.45476]},"properties":{"estacion":"irarrazaval","linea":"L3"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.627945,-33.45476]},"properties":{"estacion":"irarrazaval","linea":"L5"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.61382,-33.453506]},"properties":{"estacion":"monsenor eyzaguirre","linea":"L3"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.605515,-33.454277]},"properties":{"estacion":"nunoa","linea":"L3"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.605515,-33.454277]},"properties":{"estacion":"nunoa","linea":"L6"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.5816,-33.454857]},"properties":{"estacion":"villa frei","linea":"L3"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.57157,-33.45345]},"properties":{"estacion":"plaza egana","linea":"L3"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.57157,-33.45345]},"properties":{"estacion":"plaza egana","linea":"L4"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.558266,-33.45231]},"properties":{"estacion":"fernando castillo velasco","linea":"L3"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.60279,-33.41872]},"properties":{"estacion":"tobalaba","linea":"L1"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.60279,-33.41872]},"properties":{"estacion":"tobalaba","linea":"L4"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.591156,-33.426304]},"properties":{"estacion":"cristobal colon","linea":"L4"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.5846,-33.431953]},"properties":{"estacion":"francisco bilbao","linea":"L4"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.57377,-33.437958]},"properties":{"estacion":"principe de gales","linea":"L4"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.57161,-33.448017]},"properties":{"estacion":"simon bolivar","linea":"L4"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.57157,-33.45345]},"properties":{"estacion":"plaza egana","linea":"L3"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.57157,-33.45345]},"properties":{"estacion":"plaza egana","linea":"L4"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.57388,-33.462524]},"properties":{"estacion":"los orientales","linea":"L4"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.57649,-33.46962]},"properties":{"estacion":"grecia","linea":"L4"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.57865,-33.47987]},"properties":{"estacion":"los presidentes","linea":"L4"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.58035,-33.488235]},"properties":{"estacion":"quilin","linea":"L4"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.586365,-33.498882]},"properties":{"estacion":"las torres","linea":"L4"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.59,-33.509224]},"properties":{"estacion":"macul","linea":"L4"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.596176,-33.51978]},"properties":{"estacion":"vicuna mackenna","linea":"L4"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.596176,-33.51978]},"properties":{"estacion":"vicuna mackenna","linea":"L4A"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.59675,-33.526558]},"properties":{"estacion":"vicente valdes","linea":"L4"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.59675,-33.526558]},"properties":{"estacion":"vicente valdes","linea":"L5"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.59261,-33.536167]},"properties":{"estacion":"rojas magallanes","linea":"L4"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.58788,-33.54658]},"properties":{"estacion":"trinidad","linea":"L4"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.58653,-33.553356]},"properties":{"estacion":"san jose de la estrella","linea":"L4"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.585175,-33.561333]},"properties":{"estacion":"los quillayes","linea":"L4"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.58375,-33.569466]},"properties":{"estacion":"elisa correa","linea":"L4"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.58218,-33.577103]},"properties":{"estacion":"hospital sotero del rio","linea":"L4"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.579796,-33.589752]},"properties":{"estacion":"protectora de la infancia","linea":"L4"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.5776,-33.60072]},"properties":{"estacion":"las mercedes","linea":"L4"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.57575,-33.610462]},"properties":{"estacion":"plaza de puente alto","linea":"L4"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.596176,-33.51978]},"properties":{"estacion":"vicuna mackenna","linea":"L4"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.596176,-33.51978]},"properties":{"estacion":"vicuna mackenna","linea":"L4A"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.60549,-33.531162]},"properties":{"estacion":"santa julia","linea":"L4A"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.61605,-33.54119]},"properties":{"estacion":"la granja","linea":"L4A"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.634094,-33.54245]},"properties":{"estacion":"santa rosa","linea":"L4A"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.651245,-33.54001]},"properties":{"estacion":"san ramon","linea":"L4A"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.664474,-33.53797]},"properties":{"estacion":"la cisterna","linea":"L2"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.664474,-33.53797]},"properties":{"estacion":"la cisterna","linea":"L4A"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.75727,-33.51064]},"properties":{"estacion":"plaza de maipu","linea":"L5"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.75743,-33.496414]},"properties":{"estacion":"santiago bueras","linea":"L5"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.75273,-33.489838]},"properties":{"estacion":"del sol","linea":"L5"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.74538,-33.482117]},"properties":{"estacion":"monte tabor","linea":"L5"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.74149,-33.477356]},"properties":{"estacion":"las parcelas","linea":"L5"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.7378,-33.46288]},"properties":{"estacion":"laguna sur","linea":"L5"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.739006,-33.453]},"properties":{"estacion":"barrancas","linea":"L5"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.7406,-33.444973]},"properties":{"estacion":"pudahuel","linea":"L5"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.72312,-33.445454]},"properties":{"estacion":"san pablo","linea":"L1"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.72312,-33.445454]},"properties":{"estacion":"san pablo","linea":"L5"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.71591,-33.443295]},"properties":{"estacion":"lo prado","linea":"L5"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.70726,-33.441486]},"properties":{"estacion":"blanqueado","linea":"L5"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.69171,-33.438404]},"properties":{"estacion":"gruta de lourdes","linea":"L5"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.68019,-33.44041]},"properties":{"estacion":"quinta normal","linea":"L5"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.66854,-33.439163]},"properties":{"estacion":"cumming","linea":"L5"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.65873,-33.439255]},"properties":{"estacion":"santa ana","linea":"L2"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.65873,-33.439255]},"properties":{"estacion":"santa ana","linea":"L5"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.64982,-33.436672]},"properties":{"estacion":"plaza de armas","linea":"L3"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.64982,-33.436672]},"properties":{"estacion":"plaza de armas","linea":"L5"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.64502,-33.43668]},"properties":{"estacion":"bellas artes","linea":"L5"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.63312,-33.43728]},"properties":{"estacion":"baquedano","linea":"L1"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.63312,-33.43728]},"properties":{"estacion":"baquedano","linea":"L5"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.631546,-33.442802]},"properties":{"estacion":"parque bustamante","linea":"L5"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.63042,-33.447132]},"properties":{"estacion":"santa isabel","linea":"L5"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.627945,-33.45476]},"properties":{"estacion":"irarrazaval","linea":"L3"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.627945,-33.45476]},"properties":{"estacion":"irarrazaval","linea":"L5"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.62471,-33.4674]},"properties":{"estacion":"nuble","linea":"L5"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.62471,-33.4674]},"properties":{"estacion":"nuble","linea":"L6"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.6223,-33.47759]},"properties":{"estacion":"rodrigo de araya","linea":"L5"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.619095,-33.486473]},"properties":{"estacion":"carlos valdovinos","linea":"L5"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.6175,-33.491848]},"properties":{"estacion":"camino agricola","linea":"L5"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.61633,-33.496906]},"properties":{"estacion":"san joaquin","linea":"L5"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.61243,-33.50805]},"properties":{"estacion":"pedrero","linea":"L5"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.6062,-33.513153]},"properties":{"estacion":"mirador","linea":"L5"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.59935,-33.520447]},"properties":{"estacion":"bellavista de la florida","linea":"L5"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.59675,-33.526558]},"properties":{"estacion":"vicente valdes","linea":"L4"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.59675,-33.526558]},"properties":{"estacion":"vicente valdes","linea":"L5"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.693665,-33.48363]},"properties":{"estacion":"cerrillos","linea":"L6"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.680244,-33.478607]},"properties":{"estacion":"lo valledor","linea":"L6"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.6494,-33.476067]},"properties":{"estacion":"franklin","linea":"L2"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.6494,-33.476067]},"properties":{"estacion":"franklin","linea":"L6"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.6418,-33.47682]},"properties":{"estacion":"bio bio","linea":"L6"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.62471,-33.4674]},"properties":{"estacion":"nuble","linea":"L5"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.62471,-33.4674]},"properties":{"estacion":"nuble","linea":"L6"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.60711,-33.46199]},"properties":{"estacion":"estadio nacional","linea":"L6"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.605515,-33.454277]},"properties":{"estacion":"nunoa","linea":"L3"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.605515,-33.454277]},"properties":{"estacion":"nunoa","linea":"L6"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.6074,-33.43801]},"properties":{"estacion":"ines de suarez","linea":"L6"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.60865,-33.422173]},"properties":{"estacion":"los leones","linea":"L1"}}
-,
-{"type":"Feature","geometry":{"type":"Point","coordinates":[-70.60865,-33.422173]},"properties":{"estacion":"los leones","linea":"L6"}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"san pablo","estacion_destino":"neptuno","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"neptuno","estacion_destino":"pajaritos","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"pajaritos","estacion_destino":"las rejas","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"las rejas","estacion_destino":"ecuador","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"ecuador","estacion_destino":"san alberto hurtado","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"san alberto hurtado","estacion_destino":"universidad de santiago","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"universidad de santiago","estacion_destino":"estacion central","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"estacion central","estacion_destino":"ula","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"ula","estacion_destino":"republica","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"republica","estacion_destino":"los heroes","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"los heroes","estacion_destino":"la moneda","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"la moneda","estacion_destino":"universidad de chile","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"universidad de chile","estacion_destino":"santa lucia","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"santa lucia","estacion_destino":"universidad catolica","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"universidad catolica","estacion_destino":"baquedano","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"baquedano","estacion_destino":"salvador","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"salvador","estacion_destino":"manuel montt","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"manuel montt","estacion_destino":"pedro de valdivia","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"pedro de valdivia","estacion_destino":"los leones","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"los leones","estacion_destino":"tobalaba","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"tobalaba","estacion_destino":"el golf","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"el golf","estacion_destino":"alcantara","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"alcantara","estacion_destino":"escuela militar","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"escuela militar","estacion_destino":"manquehue","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"manquehue","estacion_destino":"hernando de magallanes","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"hernando de magallanes","estacion_destino":"los dominicos","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"los dominicos","estacion_destino":"None","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"vespucio norte","estacion_destino":"zapadores","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"zapadores","estacion_destino":"dorsal","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"dorsal","estacion_destino":"einstein","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"einstein","estacion_destino":"cementerios","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"cementerios","estacion_destino":"cerro blanco","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"cerro blanco","estacion_destino":"patronato","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"patronato","estacion_destino":"puente cal y canto","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"puente cal y canto","estacion_destino":"santa ana","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"santa ana","estacion_destino":"los heroes","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"los heroes","estacion_destino":"toesca","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"toesca","estacion_destino":"parque ohiggins","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"parque ohiggins","estacion_destino":"rondizzoni","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"rondizzoni","estacion_destino":"franklin","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"franklin","estacion_destino":"el llano","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"el llano","estacion_destino":"san miguel","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"san miguel","estacion_destino":"lo vial","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"lo vial","estacion_destino":"departamental","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"departamental","estacion_destino":"ciudad del nino","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"ciudad del nino","estacion_destino":"lo ovalle","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"lo ovalle","estacion_destino":"el parron","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"el parron","estacion_destino":"la cisterna","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"la cisterna","estacion_destino":"None","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"plaza quilicura","estacion_destino":"lo cruzat","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"lo cruzat","estacion_destino":"ferrocarril","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"ferrocarril","estacion_destino":"los libertadores","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"los libertadores","estacion_destino":"cardenal caro","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"cardenal caro","estacion_destino":"vivaceta","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"vivaceta","estacion_destino":"conchali","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"conchali","estacion_destino":"plaza chacabuco","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"plaza chacabuco","estacion_destino":"hospitales","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"hospitales","estacion_destino":"puente cal y canto","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"puente cal y canto","estacion_destino":"plaza de armas","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"plaza de armas","estacion_destino":"universidad de chile","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"universidad de chile","estacion_destino":"parque almagro","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"parque almagro","estacion_destino":"matta","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"matta","estacion_destino":"irarrazaval","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"irarrazaval","estacion_destino":"monsenor eyzaguirre","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"monsenor eyzaguirre","estacion_destino":"nunoa","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"nunoa","estacion_destino":"chile espana","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"chile espana","estacion_destino":"villa frei","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"villa frei","estacion_destino":"plaza egana","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"plaza egana","estacion_destino":"fernando castillo velasco","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"fernando castillo velasco","estacion_destino":"None","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"tobalaba","estacion_destino":"cristobal colon","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"cristobal colon","estacion_destino":"francisco bilbao","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"francisco bilbao","estacion_destino":"principe de gales","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"principe de gales","estacion_destino":"simon bolivar","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"simon bolivar","estacion_destino":"plaza egana","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"plaza egana","estacion_destino":"los orientales","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"los orientales","estacion_destino":"grecia","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"grecia","estacion_destino":"los presidentes","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"los presidentes","estacion_destino":"quilin","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"quilin","estacion_destino":"las torres","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"las torres","estacion_destino":"macul","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"macul","estacion_destino":"vicuna mackenna","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"vicuna mackenna","estacion_destino":"vicente valdes","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"vicente valdes","estacion_destino":"rojas magallanes","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"rojas magallanes","estacion_destino":"trinidad","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"trinidad","estacion_destino":"san jose de la estrella","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"san jose de la estrella","estacion_destino":"los quillayes","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"los quillayes","estacion_destino":"elisa correa","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"elisa correa","estacion_destino":"hospital sotero del rio","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"hospital sotero del rio","estacion_destino":"protectora de la infancia","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"protectora de la infancia","estacion_destino":"las mercedes","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"las mercedes","estacion_destino":"plaza de puente alto","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"plaza de puente alto","estacion_destino":"None","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"vicuna mackenna","estacion_destino":"santa julia","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"santa julia","estacion_destino":"la granja","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"la granja","estacion_destino":"santa rosa","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"santa rosa","estacion_destino":"san ramon","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"san ramon","estacion_destino":"la cisterna","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"plaza de maipu","estacion_destino":"santiago bueras","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"santiago bueras","estacion_destino":"del sol","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"del sol","estacion_destino":"monte tabor","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"monte tabor","estacion_destino":"las parcelas","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"las parcelas","estacion_destino":"laguna sur","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"laguna sur","estacion_destino":"barrancas","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"barrancas","estacion_destino":"pudahuel","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"pudahuel","estacion_destino":"san pablo","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"san pablo","estacion_destino":"lo prado","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"lo prado","estacion_destino":"blanqueado","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"blanqueado","estacion_destino":"gruta de lourdes","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"gruta de lourdes","estacion_destino":"quinta normal","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"quinta normal","estacion_destino":"cumming","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"cumming","estacion_destino":"santa ana","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"santa ana","estacion_destino":"plaza de armas","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"plaza de armas","estacion_destino":"bellas artes","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"bellas artes","estacion_destino":"baquedano","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"baquedano","estacion_destino":"parque bustamante","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"parque bustamante","estacion_destino":"santa isabel","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"santa isabel","estacion_destino":"irarrazaval","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"irarrazaval","estacion_destino":"nuble","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"nuble","estacion_destino":"rodrigo de araya","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"rodrigo de araya","estacion_destino":"carlos valdovinos","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"carlos valdovinos","estacion_destino":"camino agricola","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"camino agricola","estacion_destino":"san joaquin","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"san joaquin","estacion_destino":"pedrero","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"pedrero","estacion_destino":"mirador","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"mirador","estacion_destino":"bellavista de la florida","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"bellavista de la florida","estacion_destino":"vicente valdes","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"vicente valdes","estacion_destino":"None","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"cerrillos","estacion_destino":"lo valledor","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"lo valledor","estacion_destino":"pdte pedro aguirre cerda","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"pdte pedro aguirre cerda","estacion_destino":"franklin","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"franklin","estacion_destino":"bio bio","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"bio bio","estacion_destino":"nuble","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"nuble","estacion_destino":"estadio nacional","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"estadio nacional","estacion_destino":"nunoa","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"nunoa","estacion_destino":"ines de suarez","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"ines de suarez","estacion_destino":"los leones","estado":0}}
-,
-{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"los leones","estacion_destino":"None","estado":0}}
-]}
+{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-70.72315995624277,-33.44536740540151],[-70.72266787316374,-33.45155360978523],[-70.71549285032552,-33.45657004324689],[-70.70795209384556,-33.45707718147136],[-70.70304170699244,-33.45595722461192],[-70.69265431471723,-33.45399933985271],[-70.68608496779764,-33.45330122299809],[-70.67922841093383,-33.45146835179965],[-70.67431502861702,-33.44987178960736],[-70.66600106167307,-33.44722690810079],[-70.65435510342627,-33.44434248098887],[-70.65099062766032,-33.44310887709961],[-70.64662012727996,-33.442260570957],[-70.64117434076992,-33.44078249840783],[-70.6353780359911,-33.43729935284041],[-70.66743774414062,-33.446533203125],[-70.62045669555664,-33.4292984008789],[-70.69281673431396,-33.45438003540039],[-70.60886573143005,-33.422523498535156],[-70.60195922851562,-33.418670654296875],[-70.59791564941406,-33.41668701171875],[-70.58988761901855,-33.41545867919922],[-70.58518600463867,-33.414276123046875],[-70.56812,-33.409027],[-70.555595,-33.408005],[-70.54508,-33.407898]]},"properties":{"from":"San Pablo","to":"Los Dominicos"}},
+{"type":"Feature",
+       "geometry":{
+         "type":"LineString",
+         "coordinates":[[-70.64618,-33.38113],[-70.64244,-33.390938],[-70.64274,-33.396805],[-70.64318,-33.40648],[-70.64362,-33.41387],[-70.644936,-33.422478],[-70.64706,-33.42963],[-70.65223,-33.432945],[-70.65873,-33.439255],[-70.65874,-33.45235],[-70.65682,-33.460842],[-70.65666,-33.47025],[-70.6494,-33.476067],[-70.649124,-33.482597],[-70.65069,-33.488995],[-70.65289,-33.496414],[-70.6548,-33.50307],[-70.656654,-33.509613],[-70.658806,-33.517235],[-70.66142,-33.526512],[-70.664474,-33.53797]]},
+      "properties":{"from":"Vespucio Norte", "to": "La Cisterna"}
+     },
+{"type":"Feature",
+       "geometry":{
+         "type":"LineString",
+         "coordinates":[[-70.72991,-33.364983],[-70.71984,-33.36673],[-70.705925,-33.365486],[-70.68754,-33.367138],[-70.685455,-33.373016],[-70.679504,-33.385143],[-70.670334,-33.397243],[-70.66093,-33.40608],[-70.655685,-33.417755],[-70.65223,-33.432945],[-70.64982,-33.436672],[-70.65029,-33.443764],[-70.65047,-33.451565],[-70.64315,-33.457973],[-70.627945,-33.45476],[-70.61382,-33.453506],[-70.605515,-33.454277],[-70.5816,-33.454857],[-70.57157,-33.45345],[-70.558266,-33.45231]]},
+       "properties":{"from":"Plaza Quilicura", "to":"Fernando Castillo Velasco"}
+      },
+{"type":"Feature",
+       "geometry":{
+         "type":"LineString", 
+         "coordinates":[[-70.60279,-33.41872],[-70.591156,-33.426304],[-70.5846,-33.431953],[-70.57377,-33.437958],[-70.57161,-33.448017],[-70.57157,-33.45345],[-70.57388,-33.462524],[-70.57649,-33.46962],[-70.57865,-33.47987],[-70.58035,-33.488235],[-70.586365,-33.498882],[-70.59,-33.509224],[-70.596176,-33.51978],[-70.59675,-33.526558],[-70.59261,-33.536167],[-70.58788,-33.54658],[-70.58653,-33.553356],[-70.585175,-33.561333],[-70.58375,-33.569466],[-70.58218,-33.577103],[-70.579796,-33.589752],[-70.5776,-33.60072],[-70.57575,-33.610462],[-70.596176,-33.51978]]},
+       "properties":{"from":"Tobalaba", "to":"Plaza de Puente Alto"}
+      },
+{"type":"Feature",  
+       "geometry":{
+         "type":"LineString",
+         "coordinates":[[-70.596176,-33.51978],[-70.60549,-33.531162],[-70.61605,-33.54119],[-70.634094,-33.54245],[-70.651245,-33.54001],[-70.664474,-33.53797]] 
+       },
+       "properties":{"from":"Vicuña Mackenna", "to":"La Cisterna"}
+      },
+{"type":"Feature",
+       "geometry":{ 
+         "type":"LineString",
+         "coordinates":[[-70.75727,-33.51064],[-70.75743,-33.496414],[-70.75273,-33.489838],[-70.74538,-33.482117],[-70.74149,-33.477356],[-70.7378,-33.46288],[-70.739006,-33.453],[-70.7406,-33.444973],[-70.72312,-33.445454],[-70.71591,-33.443295],[-70.70726,-33.441486],[-70.69171,-33.438404],[-70.68019,-33.44041],[-70.66854,-33.439163],[-70.65873,-33.439255],[-70.64982,-33.436672],[-70.64502,-33.43668],[-70.63312,-33.43728],[-70.631546,-33.442802],[-70.63042,-33.447132],[-70.627945,-33.45476],[-70.62471,-33.4674],[-70.6223,-33.47759],[-70.619095,-33.486473],[-70.6175,-33.491848],[-70.61633,-33.496906],[-70.61243,-33.50805],[-70.6062,-33.513153],[-70.59935,-33.520447],[-70.59675,-33.526558]]},
+       "properties":{"from":"Plaza de Maipú", "to":"Vicente Valdés"}  
+      },
+{"type":"Feature", 
+       "geometry":{
+         "type":"LineString",
+         "coordinates":[[-70.693665,-33.48363],[-70.680244,-33.478607],[-70.6494,-33.476067],[-70.6418,-33.47682],[-70.62471,-33.4674],[-70.60711,-33.46199],[-70.605515,-33.454277],[-70.6074,-33.43801],[-70.60865,-33.422173]]
+       },
+       "properties":{"from":"Cerrillos", "to":"Los Leones"}
+      },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.58968,-33.41544],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L1",
+             "name":"alcantara",  
+             "latitude":"-33.41544",
+             "longitude":"-70.58968" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.63312,-33.43728],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L1",
+             "name":"baquedano",  
+             "latitude":"-33.43728",
+             "longitude":"-70.63312" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.63312,-33.43728],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L1",
+             "name":"baquedano",  
+             "latitude":"-33.43728",
+             "longitude":"-70.63312" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.70109,-33.45627],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L1",
+             "name":"ecuador",  
+             "latitude":"-33.45627",
+             "longitude":"-70.70109" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.595856,-33.416656],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L1",
+             "name":"el golf",  
+             "latitude":"-33.416656",
+             "longitude":"-70.595856" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.58464,-33.41429],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L1",
+             "name":"escuela militar",  
+             "latitude":"-33.41429",
+             "longitude":"-70.58464" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.679146,-33.450874],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L1",
+             "name":"estacion central",  
+             "latitude":"-33.450874",
+             "longitude":"-70.679146" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.555595,-33.408005],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L1",
+             "name":"hernando de magallanes",  
+             "latitude":"-33.408005",
+             "longitude":"-70.555595" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.65479,-33.444855],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L1",
+             "name":"la moneda",  
+             "latitude":"-33.444855",
+             "longitude":"-70.65479" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.70587,-33.457367],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L1",
+             "name":"las rejas",  
+             "latitude":"-33.457367",
+             "longitude":"-70.70587" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.54508,-33.407898],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L1",
+             "name":"los dominicos",  
+             "latitude":"-33.407898",
+             "longitude":"-70.54508" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.661705,-33.446487],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L1",
+             "name":"los heroes",  
+             "latitude":"-33.446487",
+             "longitude":"-70.661705" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.661705,-33.446487],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L1",
+             "name":"los heroes",  
+             "latitude":"-33.446487",
+             "longitude":"-70.661705" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.60865,-33.422173],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L1",
+             "name":"los leones",  
+             "latitude":"-33.422173",
+             "longitude":"-70.60865" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.60865,-33.422173],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L1",
+             "name":"los leones",  
+             "latitude":"-33.422173",
+             "longitude":"-70.60865" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.56812,-33.409027],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L1",
+             "name":"manquehue",  
+             "latitude":"-33.409027",
+             "longitude":"-70.56812" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.61892,-33.4292],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L1",
+             "name":"manuel montt",  
+             "latitude":"-33.4292",
+             "longitude":"-70.61892" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.72265,-33.451538],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L1",
+             "name":"neptuno",  
+             "latitude":"-33.451538",
+             "longitude":"-70.72265" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.715935,-33.457417],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L1",
+             "name":"pajaritos",  
+             "latitude":"-33.457417",
+             "longitude":"-70.715935" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.69237,-33.454224],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L1",
+             "name":"pedro de valdivia",  
+             "latitude":"-33.454224",
+             "longitude":"-70.69237" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.612434,-33.42493],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L1",
+             "name":"republica",  
+             "latitude":"-33.42493",
+             "longitude":"-70.612434" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.66704,-33.447704],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L1",
+             "name":"salvador",  
+             "latitude":"-33.447704",
+             "longitude":"-70.66704" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.626205,-33.433468],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L1",
+             "name":"san alberto hurtado",  
+             "latitude":"-33.433468",
+             "longitude":"-70.626205" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.72312,-33.445454],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L1",
+             "name":"san pablo",  
+             "latitude":"-33.445454",
+             "longitude":"-70.72312" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.72312,-33.445454],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L1",
+             "name":"san pablo",  
+             "latitude":"-33.445454",
+             "longitude":"-70.72312" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.6452,-33.442554],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L1",
+             "name":"santa lucia",  
+             "latitude":"-33.442554",
+             "longitude":"-70.6452" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.60279,-33.41872],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L1",
+             "name":"tobalaba",  
+             "latitude":"-33.41872",
+             "longitude":"-70.60279" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.60279,-33.41872],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L1",
+             "name":"tobalaba",  
+             "latitude":"-33.41872",
+             "longitude":"-70.60279" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.64003,-33.439854],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L1",
+             "name":"universidad catolica",  
+             "latitude":"-33.439854",
+             "longitude":"-70.64003" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.65029,-33.443764],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L1",
+             "name":"universidad de chile",  
+             "latitude":"-33.443764",
+             "longitude":"-70.65029" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.65029,-33.443764],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L1",
+             "name":"universidad de chile",  
+             "latitude":"-33.443764",
+             "longitude":"-70.65029" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.68637,-33.45283],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L1",
+             "name":"universidad de santiago",  
+             "latitude":"-33.45283",
+             "longitude":"-70.68637" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.64362,-33.41387],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L2",
+             "name":"cementerios",  
+             "latitude":"-33.41387",
+             "longitude":"-70.64362" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.644936,-33.422478],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L2",
+             "name":"cerro blanco",  
+             "latitude":"-33.422478",
+             "longitude":"-70.644936" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.656654,-33.509613],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L2",
+             "name":"ciudad del nino",  
+             "latitude":"-33.509613",
+             "longitude":"-70.656654" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.6548,-33.50307],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L2",
+             "name":"departamental",  
+             "latitude":"-33.50307",
+             "longitude":"-70.6548" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.64274,-33.396805],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L2",
+             "name":"dorsal",  
+             "latitude":"-33.396805",
+             "longitude":"-70.64274" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.64318,-33.40648],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L2",
+             "name":"einstein",  
+             "latitude":"-33.40648",
+             "longitude":"-70.64318" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.649124,-33.482597],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L2",
+             "name":"el llano",  
+             "latitude":"-33.482597",
+             "longitude":"-70.649124" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.66142,-33.526512],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L2",
+             "name":"el parron",  
+             "latitude":"-33.526512",
+             "longitude":"-70.66142" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.6494,-33.476067],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L2",
+             "name":"franklin",  
+             "latitude":"-33.476067",
+             "longitude":"-70.6494" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.6494,-33.476067],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L2",
+             "name":"franklin",  
+             "latitude":"-33.476067",
+             "longitude":"-70.6494" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.664474,-33.53797],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L2",
+             "name":"la cisterna",  
+             "latitude":"-33.53797",
+             "longitude":"-70.664474" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.664474,-33.53797],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L2",
+             "name":"la cisterna",  
+             "latitude":"-33.53797",
+             "longitude":"-70.664474" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.658806,-33.517235],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L2",
+             "name":"lo ovalle",  
+             "latitude":"-33.517235",
+             "longitude":"-70.658806" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.661705,-33.446487],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L2",
+             "name":"los heroes",  
+             "latitude":"-33.446487",
+             "longitude":"-70.661705" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.661705,-33.446487],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L2",
+             "name":"los heroes",  
+             "latitude":"-33.446487",
+             "longitude":"-70.661705" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.65289,-33.496414],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L2",
+             "name":"lo vial",  
+             "latitude":"-33.496414",
+             "longitude":"-70.65289" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.65682,-33.460842],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L2",
+             "name":"parque ohiggins",  
+             "latitude":"-33.460842",
+             "longitude":"-70.65682" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.64706,-33.42963],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L2",
+             "name":"patronato",  
+             "latitude":"-33.42963",
+             "longitude":"-70.64706" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.65223,-33.432945],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L2",
+             "name":"puente cal y canto",  
+             "latitude":"-33.432945",
+             "longitude":"-70.65223" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.65223,-33.432945],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L2",
+             "name":"puente cal y canto",  
+             "latitude":"-33.432945",
+             "longitude":"-70.65223" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.65666,-33.47025],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L2",
+             "name":"rondizzoni",  
+             "latitude":"-33.47025",
+             "longitude":"-70.65666" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.65069,-33.488995],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L2",
+             "name":"san miguel",  
+             "latitude":"-33.488995",
+             "longitude":"-70.65069" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.65873,-33.439255],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L2",
+             "name":"santa ana",  
+             "latitude":"-33.439255",
+             "longitude":"-70.65873" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.65873,-33.439255],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L2",
+             "name":"santa ana",  
+             "latitude":"-33.439255",
+             "longitude":"-70.65873" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.65874,-33.45235],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L2",
+             "name":"toesca",  
+             "latitude":"-33.45235",
+             "longitude":"-70.65874" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.64618,-33.38113],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L2",
+             "name":"vespucio norte",  
+             "latitude":"-33.38113",
+             "longitude":"-70.64618" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.64244,-33.390938],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L2",
+             "name":"zapadores",  
+             "latitude":"-33.390938",
+             "longitude":"-70.64244" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.685455,-33.373016],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L3",
+             "name":"cardenal caro",  
+             "latitude":"-33.373016",
+             "longitude":"-70.685455" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.670334,-33.397243],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L3",
+             "name":"conchali",  
+             "latitude":"-33.397243",
+             "longitude":"-70.670334" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.558266,-33.45231],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L3",
+             "name":"fernando castillo velasco",  
+             "latitude":"-33.45231",
+             "longitude":"-70.558266" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.705925,-33.365486],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L3",
+             "name":"ferrocarril",  
+             "latitude":"-33.365486",
+             "longitude":"-70.705925" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.655685,-33.417755],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L3",
+             "name":"hospitales",  
+             "latitude":"-33.417755",
+             "longitude":"-70.655685" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.627945,-33.45476],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L3",
+             "name":"irarrazaval",  
+             "latitude":"-33.45476",
+             "longitude":"-70.627945" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.627945,-33.45476],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L3",
+             "name":"irarrazaval",  
+             "latitude":"-33.45476",
+             "longitude":"-70.627945" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.71984,-33.36673],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L3",
+             "name":"lo cruzat",  
+             "latitude":"-33.36673",
+             "longitude":"-70.71984" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.68754,-33.367138],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L3",
+             "name":"los libertadores",  
+             "latitude":"-33.367138",
+             "longitude":"-70.68754" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.64315,-33.457973],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L3",
+             "name":"matta",  
+             "latitude":"-33.457973",
+             "longitude":"-70.64315" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.61382,-33.453506],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L3",
+             "name":"monsenor eyzaguirre",  
+             "latitude":"-33.453506",
+             "longitude":"-70.61382" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.605515,-33.454277],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L3",
+             "name":"nunoa",  
+             "latitude":"-33.454277",
+             "longitude":"-70.605515" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.605515,-33.454277],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L3",
+             "name":"nunoa",  
+             "latitude":"-33.454277",
+             "longitude":"-70.605515" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.65047,-33.451565],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L3",
+             "name":"parque almagro",  
+             "latitude":"-33.451565",
+             "longitude":"-70.65047" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.66093,-33.40608],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L3",
+             "name":"plaza chacabuco",  
+             "latitude":"-33.40608",
+             "longitude":"-70.66093" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.64982,-33.436672],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L3",
+             "name":"plaza de armas",  
+             "latitude":"-33.436672",
+             "longitude":"-70.64982" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.64982,-33.436672],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L3",
+             "name":"plaza de armas",  
+             "latitude":"-33.436672",
+             "longitude":"-70.64982" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.57157,-33.45345],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L3",
+             "name":"plaza egana",  
+             "latitude":"-33.45345",
+             "longitude":"-70.57157" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.57157,-33.45345],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L3",
+             "name":"plaza egana",  
+             "latitude":"-33.45345",
+             "longitude":"-70.57157" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.72991,-33.364983],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L3",
+             "name":"plaza quilicura",  
+             "latitude":"-33.364983",
+             "longitude":"-70.72991" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.65223,-33.432945],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L3",
+             "name":"puente cal y canto",  
+             "latitude":"-33.432945",
+             "longitude":"-70.65223" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.65223,-33.432945],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L3",
+             "name":"puente cal y canto",  
+             "latitude":"-33.432945",
+             "longitude":"-70.65223" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.65029,-33.443764],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L3",
+             "name":"universidad de chile",  
+             "latitude":"-33.443764",
+             "longitude":"-70.65029" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.65029,-33.443764],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L3",
+             "name":"universidad de chile",  
+             "latitude":"-33.443764",
+             "longitude":"-70.65029" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.5816,-33.454857],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L3",
+             "name":"villa frei",  
+             "latitude":"-33.454857",
+             "longitude":"-70.5816" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.679504,-33.385143],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L3",
+             "name":"vivaceta",  
+             "latitude":"-33.385143",
+             "longitude":"-70.679504" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.591156,-33.426304],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L4",
+             "name":"cristobal colon",  
+             "latitude":"-33.426304",
+             "longitude":"-70.591156" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.58375,-33.569466],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L4",
+             "name":"elisa correa",  
+             "latitude":"-33.569466",
+             "longitude":"-70.58375" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.5846,-33.431953],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L4",
+             "name":"francisco bilbao",  
+             "latitude":"-33.431953",
+             "longitude":"-70.5846" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.57649,-33.46962],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L4",
+             "name":"grecia",  
+             "latitude":"-33.46962",
+             "longitude":"-70.57649" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.58218,-33.577103],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L4",
+             "name":"hospital sotero del rio",  
+             "latitude":"-33.577103",
+             "longitude":"-70.58218" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.5776,-33.60072],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L4",
+             "name":"las mercedes",  
+             "latitude":"-33.60072",
+             "longitude":"-70.5776" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.586365,-33.498882],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L4",
+             "name":"las torres",  
+             "latitude":"-33.498882",
+             "longitude":"-70.586365" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.57388,-33.462524],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L4",
+             "name":"los orientales",  
+             "latitude":"-33.462524",
+             "longitude":"-70.57388" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.57865,-33.47987],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L4",
+             "name":"los presidentes",  
+             "latitude":"-33.47987",
+             "longitude":"-70.57865" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.585175,-33.561333],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L4",
+             "name":"los quillayes",  
+             "latitude":"-33.561333",
+             "longitude":"-70.585175" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.59,-33.509224],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L4",
+             "name":"macul",  
+             "latitude":"-33.509224",
+             "longitude":"-70.59" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.57575,-33.610462],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L4",
+             "name":"plaza de puente alto",  
+             "latitude":"-33.610462",
+             "longitude":"-70.57575" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.57157,-33.45345],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L4",
+             "name":"plaza egana",  
+             "latitude":"-33.45345",
+             "longitude":"-70.57157" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.57157,-33.45345],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L4",
+             "name":"plaza egana",  
+             "latitude":"-33.45345",
+             "longitude":"-70.57157" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.57377,-33.437958],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L4",
+             "name":"principe de gales",  
+             "latitude":"-33.437958",
+             "longitude":"-70.57377" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.579796,-33.589752],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L4",
+             "name":"protectora de la infancia",  
+             "latitude":"-33.589752",
+             "longitude":"-70.579796" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.58035,-33.488235],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L4",
+             "name":"quilin",  
+             "latitude":"-33.488235",
+             "longitude":"-70.58035" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.59261,-33.536167],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L4",
+             "name":"rojas magallanes",  
+             "latitude":"-33.536167",
+             "longitude":"-70.59261" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.58653,-33.553356],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L4",
+             "name":"san jose de la estrella",  
+             "latitude":"-33.553356",
+             "longitude":"-70.58653" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.57161,-33.448017],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L4",
+             "name":"simon bolivar",  
+             "latitude":"-33.448017",
+             "longitude":"-70.57161" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.60279,-33.41872],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L4",
+             "name":"tobalaba",  
+             "latitude":"-33.41872",
+             "longitude":"-70.60279" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.60279,-33.41872],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L4",
+             "name":"tobalaba",  
+             "latitude":"-33.41872",
+             "longitude":"-70.60279" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.58788,-33.54658],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L4",
+             "name":"trinidad",  
+             "latitude":"-33.54658",
+             "longitude":"-70.58788" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.59675,-33.526558],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L4",
+             "name":"vicente valdes",  
+             "latitude":"-33.526558",
+             "longitude":"-70.59675" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.59675,-33.526558],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L4",
+             "name":"vicente valdes",  
+             "latitude":"-33.526558",
+             "longitude":"-70.59675" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.596176,-33.51978],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L4",
+             "name":"vicuna mackenna",  
+             "latitude":"-33.51978",
+             "longitude":"-70.596176" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.596176,-33.51978],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L4",
+             "name":"vicuna mackenna",  
+             "latitude":"-33.51978",
+             "longitude":"-70.596176" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.664474,-33.53797],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L4A",
+             "name":"la cisterna",  
+             "latitude":"-33.53797",
+             "longitude":"-70.664474" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.664474,-33.53797],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L4A",
+             "name":"la cisterna",  
+             "latitude":"-33.53797",
+             "longitude":"-70.664474" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.61605,-33.54119],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L4A",
+             "name":"la granja",  
+             "latitude":"-33.54119",
+             "longitude":"-70.61605" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.651245,-33.54001],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L4A",
+             "name":"san ramon",  
+             "latitude":"-33.54001",
+             "longitude":"-70.651245" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.60549,-33.531162],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L4A",
+             "name":"santa julia",  
+             "latitude":"-33.531162",
+             "longitude":"-70.60549" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.634094,-33.54245],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L4A",
+             "name":"santa rosa",  
+             "latitude":"-33.54245",
+             "longitude":"-70.634094" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.596176,-33.51978],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L4A",
+             "name":"vicuna mackenna",  
+             "latitude":"-33.51978",
+             "longitude":"-70.596176" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.596176,-33.51978],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L4A",
+             "name":"vicuna mackenna",  
+             "latitude":"-33.51978",
+             "longitude":"-70.596176" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.63312,-33.43728],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L5",
+             "name":"baquedano",  
+             "latitude":"-33.43728",
+             "longitude":"-70.63312" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.63312,-33.43728],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L5",
+             "name":"baquedano",  
+             "latitude":"-33.43728",
+             "longitude":"-70.63312" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.739006,-33.453],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L5",
+             "name":"barrancas",  
+             "latitude":"-33.453",
+             "longitude":"-70.739006" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.64502,-33.43668],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L5",
+             "name":"bellas artes",  
+             "latitude":"-33.43668",
+             "longitude":"-70.64502" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.59935,-33.520447],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L5",
+             "name":"bellavista de la florida",  
+             "latitude":"-33.520447",
+             "longitude":"-70.59935" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.70726,-33.441486],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L5",
+             "name":"blanqueado",  
+             "latitude":"-33.441486",
+             "longitude":"-70.70726" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.6175,-33.491848],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L5",
+             "name":"camino agricola",  
+             "latitude":"-33.491848",
+             "longitude":"-70.6175" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.619095,-33.486473],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L5",
+             "name":"carlos valdovinos",  
+             "latitude":"-33.486473",
+             "longitude":"-70.619095" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.66854,-33.439163],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L5",
+             "name":"cumming",  
+             "latitude":"-33.439163",
+             "longitude":"-70.66854" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.75273,-33.489838],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L5",
+             "name":"del sol",  
+             "latitude":"-33.489838",
+             "longitude":"-70.75273" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.69171,-33.438404],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L5",
+             "name":"gruta de lourdes",  
+             "latitude":"-33.438404",
+             "longitude":"-70.69171" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.627945,-33.45476],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L5",
+             "name":"irarrazaval",  
+             "latitude":"-33.45476",
+             "longitude":"-70.627945" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.627945,-33.45476],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L5",
+             "name":"irarrazaval",  
+             "latitude":"-33.45476",
+             "longitude":"-70.627945" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.7378,-33.46288],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L5",
+             "name":"laguna sur",  
+             "latitude":"-33.46288",
+             "longitude":"-70.7378" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.74149,-33.477356],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L5",
+             "name":"las parcelas",  
+             "latitude":"-33.477356",
+             "longitude":"-70.74149" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.71591,-33.443295],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L5",
+             "name":"lo prado",  
+             "latitude":"-33.443295",
+             "longitude":"-70.71591" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.6062,-33.513153],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L5",
+             "name":"mirador",  
+             "latitude":"-33.513153",
+             "longitude":"-70.6062" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.74538,-33.482117],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L5",
+             "name":"monte tabor",  
+             "latitude":"-33.482117",
+             "longitude":"-70.74538" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.62471,-33.4674],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L5",
+             "name":"nuble",  
+             "latitude":"-33.4674",
+             "longitude":"-70.62471" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.62471,-33.4674],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L5",
+             "name":"nuble",  
+             "latitude":"-33.4674",
+             "longitude":"-70.62471" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.631546,-33.442802],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L5",
+             "name":"parque bustamante",  
+             "latitude":"-33.442802",
+             "longitude":"-70.631546" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.61243,-33.50805],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L5",
+             "name":"pedrero",  
+             "latitude":"-33.50805",
+             "longitude":"-70.61243" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.64982,-33.436672],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L5",
+             "name":"plaza de armas",  
+             "latitude":"-33.436672",
+             "longitude":"-70.64982" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.64982,-33.436672],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L5",
+             "name":"plaza de armas",  
+             "latitude":"-33.436672",
+             "longitude":"-70.64982" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.75727,-33.51064],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L5",
+             "name":"plaza de maipu",  
+             "latitude":"-33.51064",
+             "longitude":"-70.75727" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.7406,-33.444973],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L5",
+             "name":"pudahuel",  
+             "latitude":"-33.444973",
+             "longitude":"-70.7406" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.68019,-33.44041],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L5",
+             "name":"quinta normal",  
+             "latitude":"-33.44041",
+             "longitude":"-70.68019" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.6223,-33.47759],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L5",
+             "name":"rodrigo de araya",  
+             "latitude":"-33.47759",
+             "longitude":"-70.6223" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.61633,-33.496906],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L5",
+             "name":"san joaquin",  
+             "latitude":"-33.496906",
+             "longitude":"-70.61633" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.72312,-33.445454],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L5",
+             "name":"san pablo",  
+             "latitude":"-33.445454",
+             "longitude":"-70.72312" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.72312,-33.445454],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L5",
+             "name":"san pablo",  
+             "latitude":"-33.445454",
+             "longitude":"-70.72312" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.65873,-33.439255],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L5",
+             "name":"santa ana",  
+             "latitude":"-33.439255",
+             "longitude":"-70.65873" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.65873,-33.439255],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L5",
+             "name":"santa ana",  
+             "latitude":"-33.439255",
+             "longitude":"-70.65873" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.63042,-33.447132],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L5",
+             "name":"santa isabel",  
+             "latitude":"-33.447132",
+             "longitude":"-70.63042" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.75743,-33.496414],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L5",
+             "name":"santiago bueras",  
+             "latitude":"-33.496414",
+             "longitude":"-70.75743" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.59675,-33.526558],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L5",
+             "name":"vicente valdes",  
+             "latitude":"-33.526558",
+             "longitude":"-70.59675" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.59675,-33.526558],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L5",
+             "name":"vicente valdes",  
+             "latitude":"-33.526558",
+             "longitude":"-70.59675" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.6418,-33.47682],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L6",
+             "name":"bio bio",  
+             "latitude":"-33.47682",
+             "longitude":"-70.6418" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.693665,-33.48363],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L6",
+             "name":"cerrillos",  
+             "latitude":"-33.48363",
+             "longitude":"-70.693665" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.60711,-33.46199],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L6",
+             "name":"estadio nacional",  
+             "latitude":"-33.46199",
+             "longitude":"-70.60711" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.6494,-33.476067],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L6",
+             "name":"franklin",  
+             "latitude":"-33.476067",
+             "longitude":"-70.6494" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.6494,-33.476067],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L6",
+             "name":"franklin",  
+             "latitude":"-33.476067",
+             "longitude":"-70.6494" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.6074,-33.43801],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L6",
+             "name":"ines de suarez",  
+             "latitude":"-33.43801",
+             "longitude":"-70.6074" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.60865,-33.422173],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L6",
+             "name":"los leones",  
+             "latitude":"-33.422173",
+             "longitude":"-70.60865" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.60865,-33.422173],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L6",
+             "name":"los leones",  
+             "latitude":"-33.422173",
+             "longitude":"-70.60865" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.680244,-33.478607],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L6",
+             "name":"lo valledor",  
+             "latitude":"-33.478607",
+             "longitude":"-70.680244" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.62471,-33.4674],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L6",
+             "name":"nuble",  
+             "latitude":"-33.4674",
+             "longitude":"-70.62471" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.62471,-33.4674],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L6",
+             "name":"nuble",  
+             "latitude":"-33.4674",
+             "longitude":"-70.62471" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.605515,-33.454277],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L6",
+             "name":"nunoa",  
+             "latitude":"-33.454277",
+             "longitude":"-70.605515" 
+          }
+       },
+{"type":"Feature", 
+          "geometry":{    
+             "coordinates":[-70.605515,-33.454277],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"L6",
+             "name":"nunoa",  
+             "latitude":"-33.454277",
+             "longitude":"-70.605515" 
+          }
+       }]}

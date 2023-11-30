@@ -471,3 +471,27 @@ INSERT INTO coordenadas (estacion, longitud, latitud) VALUES ('pedro aguirre cer
 INSERT INTO coordenadas (estacion, longitud, latitud) VALUES ('bio bio', -70.6418, -33.476822);
 INSERT INTO coordenadas (estacion, longitud, latitud) VALUES ('estadio nacional', -70.607109, -33.46199);
 INSERT INTO coordenadas (estacion, longitud, latitud) VALUES ('ines de suarez', -70.607399, -33.438011);
+CREATE EXTENSION IF NOT EXISTS postgis;
+CREATE EXTENSION IF NOT EXISTS pgrouting;
+CREATE TABLE IF NOT EXISTS vertices AS
+SELECT row_number() OVER () AS id, estacion, longitud, latitud
+FROM coordenadas;
+CREATE TABLE conexiones_edges AS
+SELECT
+    e.id,
+    v1.id AS source,
+    v2.id AS target,
+    e.estado AS cost
+FROM
+    conexiones e
+    JOIN vertices v1 ON e.estacion_origen = v1.estacion
+    JOIN vertices v2 ON e.estacion_destino = v2.estacion;
+SELECT pgr_createTopology('conexiones_edges', 0.0001, 'source', 'target', 'id');
+SELECT seq, node, edge, cost, agg_cost, geom
+FROM pgr_dijkstra(
+    'SELECT id, source, target, cost FROM conexiones_edges',
+    (SELECT id FROM conexiones_edges WHERE source = (SELECT id FROM vertices WHERE estacion = 'Estacion_Origen')),
+    (SELECT id FROM conexiones_edges WHERE target = (SELECT id FROM vertices WHERE estacion = 'Estacion_Destino')),
+    directed := true
+) AS di
+JOIN coordenadas AS c ON di.node = c.id;

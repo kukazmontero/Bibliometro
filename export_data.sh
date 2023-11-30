@@ -1,27 +1,104 @@
-#!/bin/bash
+# Nombre del archivo GeoJSON de salida
+METRO_GEOJSON="metro_data.geojson"
 
-# Definir el nombre del archivo GeoJSON
-GEOJSON_FILE="metro_data.geojson"
+# Iniciar FeatureCollection
+echo '{"type":"FeatureCollection","features":[' > $METRO_GEOJSON
 
-# Inicializar el archivo GeoJSON
-echo '{"type":"FeatureCollection","features":[' > $GEOJSON_FILE
+# Línea 1
+echo '{"type":"Feature","geometry":{"type":"LineString","coordinates":[[-70.72315995624277,-33.44536740540151],[-70.72266787316374,-33.45155360978523],[-70.71549285032552,-33.45657004324689],[-70.70795209384556,-33.45707718147136],[-70.70304170699244,-33.45595722461192],[-70.69265431471723,-33.45399933985271],[-70.68608496779764,-33.45330122299809],[-70.67922841093383,-33.45146835179965],[-70.67431502861702,-33.44987178960736],[-70.66600106167307,-33.44722690810079],[-70.65435510342627,-33.44434248098887],[-70.65099062766032,-33.44310887709961],[-70.64662012727996,-33.442260570957],[-70.64117434076992,-33.44078249840783],[-70.6353780359911,-33.43729935284041],[-70.66743774414062,-33.446533203125],[-70.62045669555664,-33.4292984008789],[-70.69281673431396,-33.45438003540039],[-70.60886573143005,-33.422523498535156],[-70.60195922851562,-33.418670654296875],[-70.59791564941406,-33.41668701171875],[-70.58988761901855,-33.41545867919922],[-70.58518600463867,-33.414276123046875],[-70.56812,-33.409027],[-70.555595,-33.408005],[-70.54508,-33.407898]]},"properties":{"from":"San Pablo","to":"Los Dominicos"}},' >> $METRO_GEOJSON
+# Línea 2
+echo '{"type":"Feature",
+       "geometry":{
+         "type":"LineString",
+         "coordinates":[[-70.64618,-33.38113],[-70.64244,-33.390938],[-70.64274,-33.396805],[-70.64318,-33.40648],[-70.64362,-33.41387],[-70.644936,-33.422478],[-70.64706,-33.42963],[-70.65223,-33.432945],[-70.65873,-33.439255],[-70.65874,-33.45235],[-70.65682,-33.460842],[-70.65666,-33.47025],[-70.6494,-33.476067],[-70.649124,-33.482597],[-70.65069,-33.488995],[-70.65289,-33.496414],[-70.6548,-33.50307],[-70.656654,-33.509613],[-70.658806,-33.517235],[-70.66142,-33.526512],[-70.664474,-33.53797]]},
+      "properties":{"from":"Vespucio Norte", "to": "La Cisterna"}
+     },' >> $METRO_GEOJSON
 
-# Obtener datos de la base de datos y agregar estaciones al GeoJSON
-docker exec -i bibliometro-postgis-1 psql -U user -d metro_santiago -t -A -F',' -c "SELECT c.estacion, c.longitud, c.latitud, l.linea FROM coordenadas c JOIN lineas_estacion l ON c.estacion = l.estacion" | \
-while IFS=',' read -r estacion longitud latitud linea; do
-    echo '{"type":"Feature","geometry":{"type":"Point","coordinates":['$longitud','$latitud']},"properties":{"estacion":"'$estacion'","linea":"'$linea'"}}' >> $GEOJSON_FILE
-    echo ',' >> $GEOJSON_FILE
-done
+# Línea 3
+echo '{"type":"Feature",
+       "geometry":{
+         "type":"LineString",
+         "coordinates":[[-70.72991,-33.364983],[-70.71984,-33.36673],[-70.705925,-33.365486],[-70.68754,-33.367138],[-70.685455,-33.373016],[-70.679504,-33.385143],[-70.670334,-33.397243],[-70.66093,-33.40608],[-70.655685,-33.417755],[-70.65223,-33.432945],[-70.64982,-33.436672],[-70.65029,-33.443764],[-70.65047,-33.451565],[-70.64315,-33.457973],[-70.627945,-33.45476],[-70.61382,-33.453506],[-70.605515,-33.454277],[-70.5816,-33.454857],[-70.57157,-33.45345],[-70.558266,-33.45231]]},
+       "properties":{"from":"Plaza Quilicura", "to":"Fernando Castillo Velasco"}
+      },' >> $METRO_GEOJSON
 
-# Obtener datos de la base de datos y agregar conexiones al GeoJSON
-docker exec -i bibliometro-postgis-1 psql -U user -d metro_santiago -t -A -F',' -c "SELECT c.estacion_origen, c.estacion_destino, c.estado FROM conexiones c" | \
-while IFS=',' read -r estacion_origen estacion_destino estado; do
-    echo '{"type":"Feature","geometry":{"type":"LineString","coordinates":[]},"properties":{"estacion_origen":"'$estacion_origen'","estacion_destino":"'$estacion_destino'","estado":'$estado'}}' >> $GEOJSON_FILE
-    echo ',' >> $GEOJSON_FILE
-done
+# Línea 4 
+echo '{"type":"Feature",
+       "geometry":{
+         "type":"LineString", 
+         "coordinates":[[-70.60279,-33.41872],[-70.591156,-33.426304],[-70.5846,-33.431953],[-70.57377,-33.437958],[-70.57161,-33.448017],[-70.57157,-33.45345],[-70.57388,-33.462524],[-70.57649,-33.46962],[-70.57865,-33.47987],[-70.58035,-33.488235],[-70.586365,-33.498882],[-70.59,-33.509224],[-70.596176,-33.51978],[-70.59675,-33.526558],[-70.59261,-33.536167],[-70.58788,-33.54658],[-70.58653,-33.553356],[-70.585175,-33.561333],[-70.58375,-33.569466],[-70.58218,-33.577103],[-70.579796,-33.589752],[-70.5776,-33.60072],[-70.57575,-33.610462],[-70.596176,-33.51978]]},
+       "properties":{"from":"Tobalaba", "to":"Plaza de Puente Alto"}
+      },' >> $METRO_GEOJSON
 
-# Eliminar la coma extra del último elemento
-truncate -s-2 $GEOJSON_FILE
+# Línea 4A
+echo '{"type":"Feature",  
+       "geometry":{
+         "type":"LineString",
+         "coordinates":[[-70.596176,-33.51978],[-70.60549,-33.531162],[-70.61605,-33.54119],[-70.634094,-33.54245],[-70.651245,-33.54001],[-70.664474,-33.53797]] 
+       },
+       "properties":{"from":"Vicuña Mackenna", "to":"La Cisterna"}
+      },' >> $METRO_GEOJSON  
 
-# Cerrar el archivo GeoJSON
-echo ']}' >> $GEOJSON_FILE
+# Línea 5
+echo '{"type":"Feature",
+       "geometry":{ 
+         "type":"LineString",
+         "coordinates":[[-70.75727,-33.51064],[-70.75743,-33.496414],[-70.75273,-33.489838],[-70.74538,-33.482117],[-70.74149,-33.477356],[-70.7378,-33.46288],[-70.739006,-33.453],[-70.7406,-33.444973],[-70.72312,-33.445454],[-70.71591,-33.443295],[-70.70726,-33.441486],[-70.69171,-33.438404],[-70.68019,-33.44041],[-70.66854,-33.439163],[-70.65873,-33.439255],[-70.64982,-33.436672],[-70.64502,-33.43668],[-70.63312,-33.43728],[-70.631546,-33.442802],[-70.63042,-33.447132],[-70.627945,-33.45476],[-70.62471,-33.4674],[-70.6223,-33.47759],[-70.619095,-33.486473],[-70.6175,-33.491848],[-70.61633,-33.496906],[-70.61243,-33.50805],[-70.6062,-33.513153],[-70.59935,-33.520447],[-70.59675,-33.526558]]},
+       "properties":{"from":"Plaza de Maipú", "to":"Vicente Valdés"}  
+      },' >> $METRO_GEOJSON
+
+# Línea 6
+echo '{"type":"Feature", 
+       "geometry":{
+         "type":"LineString",
+         "coordinates":[[-70.693665,-33.48363],[-70.680244,-33.478607],[-70.6494,-33.476067],[-70.6418,-33.47682],[-70.62471,-33.4674],[-70.60711,-33.46199],[-70.605515,-33.454277],[-70.6074,-33.43801],[-70.60865,-33.422173]]
+       },
+       "properties":{"from":"Cerrillos", "to":"Los Leones"}
+      },' >> $METRO_GEOJSON
+
+# Consultar estaciones ordenadas por línea y estación
+docker exec -i bibliometro-postgis-1 psql -U user -d metro_santiago -t -A -F',' -c "
+  SELECT 
+    le.estacion,
+    le.linea,
+    ce.longitud,
+    ce.latitud,
+    LEAD(le.estacion) OVER (PARTITION BY le.linea ORDER BY le.estacion) AS next_estacion
+  FROM 
+    lineas_estacion le
+    INNER JOIN coordenadas ce ON le.estacion = ce.estacion
+  ORDER BY
+    le.linea, le.estacion
+" > ordered_stations.csv
+
+# Leer resultados y generar estaciones
+while IFS=',' read -r estacion linea long lat next_estacion; do
+
+  # Verificar si hay coordenadas disponibles
+  if [ -n "$long" ] && [ -n "$lat" ]; then
+    echo '{"type":"Feature", 
+          "geometry":{    
+             "coordinates":['$long','$lat'],
+             "type":"Point"   
+          }, 
+          "properties":{   
+             "line":"'$linea'",
+             "name":"'$estacion'",  
+             "latitude":"'$lat'",
+             "longitude":"'$long'" 
+          }
+       },' >> $METRO_GEOJSON
+  else
+    echo "Advertencia: Coordenadas no disponibles para la estación $estacion."
+  fi
+
+done < ordered_stations.csv
+
+# Finalizar FeatureCollection
+truncate -s-2 $METRO_GEOJSON
+echo "]}" >> $METRO_GEOJSON
+
+# Limpiar archivos temporales
+rm ordered_stations.csv
+
+echo "GeoJSON generado en $METRO_GEOJSON"

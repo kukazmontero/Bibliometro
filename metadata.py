@@ -142,6 +142,38 @@ def main():
 
             archivo_coordenadas.close()
 
+            # Crear extensiones
+            sql_file.write(f"CREATE EXTENSION IF NOT EXISTS postgis;\n")
+            sql_file.write(f"CREATE EXTENSION IF NOT EXISTS pgrouting;\n")
+
+            # Crear tablas
+            sql_file.write("CREATE TABLE IF NOT EXISTS vertices AS\n")
+            sql_file.write("SELECT row_number() OVER () AS id, estacion, longitud, latitud\n")
+            sql_file.write("FROM coordenadas;\n")
+
+            sql_file.write("CREATE TABLE conexiones_edges AS\n")
+            sql_file.write("SELECT\n")
+            sql_file.write("    e.id,\n")
+            sql_file.write("    v1.id AS source,\n")
+            sql_file.write("    v2.id AS target,\n")
+            sql_file.write("    e.estado AS cost\n")
+            sql_file.write("FROM\n")
+            sql_file.write("    conexiones e\n")
+            sql_file.write("    JOIN vertices v1 ON e.estacion_origen = v1.estacion\n")
+            sql_file.write("    JOIN vertices v2 ON e.estacion_destino = v2.estacion;\n")
+
+            # Realizar la consulta
+            sql_file.write("SELECT pgr_createTopology('conexiones_edges', 0.0001, 'source', 'target', 'id');\n")
+            sql_file.write("SELECT seq, node, edge, cost, agg_cost, geom\n")
+            sql_file.write("FROM pgr_dijkstra(\n")
+            sql_file.write("    'SELECT id, source, target, cost FROM conexiones_edges',\n")
+            sql_file.write("    (SELECT id FROM conexiones_edges WHERE source = (SELECT id FROM vertices WHERE estacion = 'Estacion_Origen')),\n")
+            sql_file.write("    (SELECT id FROM conexiones_edges WHERE target = (SELECT id FROM vertices WHERE estacion = 'Estacion_Destino')),\n")
+            sql_file.write("    directed := true\n")
+            sql_file.write(") AS di\n")
+            sql_file.write("JOIN coordenadas AS c ON di.node = c.id;\n")
+
+
     except Exception as e:
         print(f"Error: {e}")
         traceback.print_exc()
